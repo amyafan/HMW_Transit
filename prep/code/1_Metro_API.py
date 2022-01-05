@@ -44,36 +44,36 @@ columns = ['School Name', 'Latitude [Public School] 2019-20', 'Longitude [Public
            'School ID - NCES Assigned [Public School] Latest available year']
 sch_info = pd.read_csv(sch_str, usecols=columns)
 sch_info.columns = ['name', 'lat', 'long', 'nces_id']
-prints(sch_info.head())
+print(sch_info.head())
 
 # Next, we'll pull out all the routes to Hattie Mae White for each school. For now, we'll store them in this list to concatenate
 routelist = []
 
 # loop through each school
-for nrow in range(0, len(schools)):
+for nrow in range(0, len(sch_info)):
 
     # get the latitude and longitude of the school
-    s_lat = schools.iloc[nrow, 1]
-    s_long = schools.iloc[nrow, 2]
+    s_lat = sch_info.iloc[nrow, 1]
+    s_long = sch_info.iloc[nrow, 2]
 
     # get the trip information for that school
     trip = requests.get(
         f"https://api.ridemetro.org/data/CalculateItineraryByPoints?lat1={s_lat}&lon1={s_long}&lat2={HMW_lat}&lon2={HMW_long}&$orderby=EndTime&$expand=Legs&subscription-key={key}")
-
+    print(trip.status_code)
     # data wrangling to get the data into a nice DataFrame
     trip1 = pd.DataFrame(trip.json())
     trip_df = trip1['value'].apply(pd.Series)
 
     # add in columns for the school and school ID
-    trip_df['school'] = schools.iloc[nrow, 0]
-    trip_df['school_id'] = schools.iloc[nrow, 3]
+    trip_df['school'] = sch_info.iloc[nrow, 0]
+    trip_df['school_id'] = sch_info.iloc[nrow, 3]
 
     # add the dataframe to the list
     routelist.append(trip_df)
-    print(f"Done with school #{nrow}: {schools.iloc[nrow, 0]}")
+    print(f"Done with school #{nrow}: {sch_info.iloc[nrow, 0]}")
 
-    # The API will return errors if I make too many requests at once. Thus, we will pause for 2 seconds after each loop
-    time.sleep(2)
+    # The API will return errors if I make too many requests at once. Thus, we will pause for 5 seconds after each loop
+    time.sleep(5)
 
 # After going through the loop, we can concatenate all the routelists into one dataframe
 routes = pd.concat(routelist, ignore_index=True)
