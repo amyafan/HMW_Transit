@@ -48,3 +48,13 @@ metro_routes.csv and metro_legs.csv
 
 	metro_routes.csv has a route per line, metro_legs has a leg of a route per line. The variable "ItineraryId" can be used to link the routes to the legs
 
+
+name_match_raw.csv and name_match_final.csv
+	
+	Since the FOIA document from HISD and the TEA documents had different school names, I made this to match the school names properly. I first used a fuzzy merge in notebook 2, and then manually checked the entries. 
+
+	the file in code/0_Name_Match.py produces name_match_raw.csv. I then went through and manually adjusted to create name_match_final.csv
+
+	Notes: 
+		* Liberty High School has both day and night classes. Both are mapped to the Liberty High School classes
+		* "ENERGIZED FOR STEM ACADEMY SOUTHEAST MIDDLE" was not included in the HISD FOIA request
