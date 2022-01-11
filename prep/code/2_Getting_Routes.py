@@ -7,17 +7,9 @@ API documentation: https://api-portal.ridemetro.org/api-details#api=53f1db24ee3f
 
 inputs:
 
-    - start_end_times.xlsx
+    - school_demo_geo.csv
 
-        We read the second sheet to get each school's end time. 
-    
-    - school_geography.csv
-        
-        This gives the coordinates of each school. 
-
-    - name_match_final.csv
-
-        This is the key that matches the school names in start_end_times to school_geography
+        cleaned from 1_Cleaning_Sch.py. Contains all the information about the schools 
 
 outputs: 
 
@@ -37,66 +29,67 @@ import openpyxl
 import requests
 import time
 import dateutil
-from datetime import datetime, timedelta
+import datetime
 
 # working directory
 direc = "//Users//afan//Desktop//Misc//HMW_Transit//"
 
-# API key. We will use this to connect to the API
+# API keys. We will use this to connect to the API
 api_key = "4e7902d1a2ae42df978fe20387049854"
+api_key2 = "c45886cc797b47319bf15f4d7f84c3e4"
 
 # Hattie Mae White coordinates. I got these from Google Maps
 HMW_lat = 29.802759908899148
 HMW_long = -95.45410037006431
 
+# board meeting start time
+bm_start_time = (datetime.datetime.combine(datetime.datetime.today(), datetime.time(
+    5, 00)) + datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+# function to wrangle the legs out of a dataframe:
+
+get_legs()
+
 #######################
 # READING INPUT FILES #
 #######################
-# read in the excel sheet with schools end times -- the information on all the schools is on the second sheet
-endtimes_str = direc + "prep//raw_data//" + "start_end_times.xlsx"
-endtimes_cols = ['Campus Short Name', 'End Time']
 
-endtimes = pd.read_excel(
-    endtimes_str, 1, usecols=endtimes_cols, parse_dates=['End Time'])
+# cleaned dataset
+df_str = direc + "cleaned_data//" + "school_demo_geo.csv"
 
-# delete SOAR Academy since there is no school end time
-endtimes = endtimes[endtimes['Campus Short Name'] != "SOAR Center"]
-print(endtimes.shape)
+# relevant columns
+df_cols = ['School_Num', 'School_Nam', 'X', 'Y', 'End Time']
+df = pd.read_csv(endtimes_str, usecols=df_cols, parse_dates=['End Time'])
 
-# read in the csv with the coordinates
-coord_str = direc + "prep//raw_data//" + "school_geography.csv"
-coord_cols = ['School_Nam', 'X', 'Y']
+print(df.head())
 
-coord = pd.read_csv(coord_str, usecols=coord_cols)
-print(coord.shape)
-
-# read the key to match the two schools names
-
-key_str = direc + "prep//raw_data//" + "name_match_final.csv"
-key = pd.read_csv(key_str)
-
-# Now, we can merge in the end time information with the coordinates information
-endtime_coord = endtimes.merge(key).merge(coord)
+#################################
+# PULLING THE ROUTE INFORMATION #
+#################################
 
 # Next, we'll pull out all the routes to Hattie Mae White for each school. For now, we'll store them in this list to concatenate
 routelist = []
 
 # loop through each school
-for nrow in range(0, len(endtime_coord)):
+for nrow in range(0, 3):  # len(df)
 
     # school name
-    s_name = endtime_coord.iloc[nrow, 2]
+    s_name = df.iloc[nrow, 2]
 
     # school end time
-    s_endtime = (endtime_coord.iloc[nrow, 1] +
-                 timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    s_endtime = (df.iloc[nrow, 4] + timedelta(hours=6)
+                 ).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # X and Y are longitude and latitude, respectively
-    s_lat = endtime_coord.iloc[nrow, 4]
-    s_long = endtime_coord.iloc[nrow, 3]
+    s_lat = df.iloc[nrow, 3]
+    s_long = df.iloc[nrow, 2]
+
+    ########################################
+    # API CALL 1: LEAVE AT SCHOOL END TIME #
+    ########################################
 
     # get the trip information for that school
-
     req_url = f"https://api.ridemetro.org/data/CalculateItineraryByPoints?lat1={s_lat}&lon1={s_long}&lat2={HMW_lat}&lon2={HMW_long}&startTime=datetime'{s_endtime}'&$orderby=EndTime&$expand=Legs&subscription-key={api_key}"
     trip = requests.get(req_url)
 
@@ -147,7 +140,7 @@ legs = pd.concat(leglist)
 legs = legs[~np.isnan(legs['Ordinal'])]
 print("Shape of legs after removing NaNs:", legs.shape)
 print("")
-print(f"Number of schools: {len(endtime_coord)}")
+print(f"Number of schools: {len(df)}")
 print(f"Number of routes: {len(routes)}")
 print(f"Number of legs: {len(legs)}")
 
@@ -155,5 +148,5 @@ print(f"Number of legs: {len(legs)}")
 # OUTPUT #
 ##########
 
-routes.to_csv(direc + "prep//raw_data//" + "metro_routes.csv")
-legs.to_csv(direc + "prep//raw_data//" + "metro_legs.csv")
+routes.to_csv(direc + "prep//raw_data//" + "metro_routes_test.csv")
+legs.to_csv(direc + "prep//raw_data//" + "metro_legs_test.csv")
