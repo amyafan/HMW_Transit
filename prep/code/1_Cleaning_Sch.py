@@ -21,11 +21,20 @@ inputs (See the README for a more detailed description of the data):
 
         This is the key that matches the school names in start_end_times to school_geography
 
-outputs: 
+    - Google Maps API
 
-    - school_demo_geo.csv
+        This is not a dataset in the folder, but we will be merging in data from the Google Maps API, namely 
+        the places_id. This will allow us to calculate distances in Google Maps more effectively 
 
-        cleaned dataset
+outputs (in cleaned_data): 
+
+    - school_demo_geo.csv (in cleaned_data)
+
+        cleaned dataset of demographic, geographic, and relevant Google Maps data 
+    
+    - HMW_info.csv (in raw_data)
+        
+        one line with relevant information about Hattie Mae White -- to be used in calculating distances
 
 We will also be dropping the following schools for the following reasons: 
 
@@ -46,16 +55,44 @@ We will also be dropping the following schools for the following reasons:
 # SETUP #
 #########
 
-import numpy as np
 import pandas as pd
-import datetime
+import requests
+import dask.dataframe as dd
 
 raw_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//raw_data//"
 cleaned_data = "//Users//afan//Desktop//Misc//HMW_Transit//cleaned_data//"
 
+# API subscription keys for Google Maps
+gm_api_key = "AIzaSyDkb0cS70Cmk5aQ-p4QZ_DccGHgGqc7eu4"
+
+# FUNCTION FOR GOOGLE MAPS API
+
+
+def get_place_id(row, api_key):
+
+    s_name = row[1]
+
+    # school address
+    s_addr = row[2]
+
+    # For some reason, X and Y are longitude and latitude, respectively
+    s_lat = row[5]
+    s_long = row[4]
+
+    url = f"https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=place_id&input={s_name}%20School%20{s_addr}&inputtype=textquery&locationbias=circle%3A200%{s_lat}2%2C{s_long}&key={api_key}"
+
+    req = requests.get(url)
+
+    print(s_name, ":", req.status_code)
+
+    p_id = pd.DataFrame(req.json())['candidates'].apply(pd.Series).iloc[0, 0]
+
+    return p_id
+
 ############################
 # student_demographics.csv #
 ############################
+
 
 print("\nStudent Demographics:")
 
@@ -192,6 +229,26 @@ stud_final = stud_final[~stud_final.School_Nam.isin(
 # Young Scholars Academy and Young Learners have been shut down/are a pre-K chain respectively (https://www.houstonisd.org/Page/32496), so we'll delete them
 stud_final = stud_final[~stud_final.CAMPNAME.isin(
     ["YOUNG SCHOLARS ACADEMY FOR EXCELLE", "YOUNG LEARNERS"])]
+
+###################
+# GOOGLE MAPS API #
+###################
+
+# We need to find the place_id in order to give Google Maps accurate information location
+# First, we'll do it for Hattie Mae White and then save this information locally
+HMW_row = ['n/a', "Hattie Mae White", "4400 W 18th St, Houston, TX 77092", 'n/a',
+           29.802759908899148, -95.45410037006431]
+HMW_row.append(get_place_id(HMW_row, gm_api_key))
+
+HMW_str = raw_data + "HMW.csv"
+pd.DataFrame(HMW_row).to_csv(HMW_str)
+
+# Now, we'll convert the existing df to a dask dataframe and do the API calls from there
+ddf = dd.from_pandas(stud_final, npartitions=8)
+ddf['Place_Id'] = ddf.apply(lambda row: get_place_id(
+    row, gm_api_key), axis=1, meta=('Place_Id', 'string'))
+
+stud_final = ddf.compute()
 
 ##############################
 # SAVE FINAL CLEANED DATASET #
