@@ -7,111 +7,141 @@ API documentation: https://developers.google.com/maps/documentation/directions/g
 
 inputs:
 
-    - school_demo_geo.csv
+    - cleaned_data/school_demo_geo.csv
 
         cleaned from 1_Cleaning_Sch.py. Contains all the information about the schools and the Google Place ID information
 
 outputs: 
 
-    - routes_raw.csv
+    - prep/int_data/{School_Num}_{School_Nam}_{arr/leav}.json
 
+        two json files for each school: 
+            
+            1) the routes leaving from when school starts
+            2) the routes that arrive before the board meeting
         
 """
 
 # import all the necessary libraries
 import numpy as np
 import pandas as pd
-import openpyxl
 import requests
-import time
-import dateutil
 import datetime
+import time
+import json
+from dask import delayed
 
 # working directory
-direc = "//Users//afan//Desktop//Misc//HMW_Transit//"
+cleaned_data = "//Users//afan//Desktop//Misc//HMW_Transit//cleaned_data//"
+int_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//"
+json_loc = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//bus_routes//"
 
-# API keys. We will use this to connect to the API
-api_key = "4e7902d1a2ae42df978fe20387049854"
-api_key2 = "c45886cc797b47319bf15f4d7f84c3e4"
+# API subscription keys for Google Maps
+gm_api_key = "AIzaSyDkb0cS70Cmk5aQ-p4QZ_DccGHgGqc7eu4"
 
-# Hattie Mae White coordinates. I got these from Google Maps
-HMW_lat = 29.802759908899148
-HMW_long = -95.45410037006431
+#########
+# TIMER #
+#########
 
-# board meeting start time
-bm_start_time = (datetime.datetime.combine(datetime.datetime.today(), datetime.time(
-    17, 00)) + datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ")
+# Just because I'm curious
 
-#################################
-# PULLING THE ROUTE INFORMATION #
-#################################
+start = time.perf_counter()
 
-# Next, we'll pull out all the routes to Hattie Mae White for each school. For now, we'll store them in this list to concatenate
-routelist_leave = []
-routelist_arr = []
+###############################
+# THE MOST IMPORTANT FUNCTION #
+###############################
 
-# loop through each school
-for nrow in range(0, 3):  # len(df)
+
+def get_write_routes(row):
 
     # school number
-    s_num = df.iloc[nrow, 0]
+    school_num = row[0]
 
     # school name
-    s_name = df.iloc[nrow, 1]
+    school_name = row[1]
+    school_name = ''.join(e for e in school_name if e.isalnum())
 
-    # school end time
-    s_endtime = (df.iloc[nrow, 4] + datetime.timedelta(hours=6)
-                 ).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # end time
+    school_end_time = int(row[2].timestamp())
 
-    # X and Y are longitude and latitude, respectively
-    s_lat = df.iloc[nrow, 3]
-    s_long = df.iloc[nrow, 2]
+    # Google Place Id
+    school_place_id = row[3]
 
     ########################################
     # API CALL 1: LEAVE AT SCHOOL END TIME #
     ########################################
 
-    # get the trip information for that school
-    req_url_1 = f"https://api.ridemetro.org/data/CalculateItineraryByPoints?lat1={s_lat}&lon1={s_long}&lat2={HMW_lat}&lon2={HMW_long}&startTime={s_endtime}&$orderby=EndTime&$expand=Legs&subscription-key={api_key}"
-    trip_1 = requests.get(req_url_1)
+    routes_1_url = f"https://maps.googleapis.com/maps/api/directions/json?departure_time={school_end_time}&alternatives=true&destination=place_id:{hmw_place_id}&mode=transit&origin=place_id:{school_place_id}&key={gm_api_key}"
+    routes_1 = requests.get(routes_1_url)
 
-    print("API CALL 1:", trip_1.status_code)
+    # save output as .json
+    api_1_str = json_loc + school_num + "_" + school_name + "_leave.txt"
 
-    # append output to list
-    routelist_leave = append_api_output_to_routelist(
-        trip_1, routelist_leave, s_num, s_name)
+    with open(api_1_str, 'w') as outfile:
+        json.dump(routes_1.json(), outfile, sort_keys=True, indent=4,
+                  ensure_ascii=False)
 
     ############################################
     # API CALL 2: ARRIVE AT BOARD MEETING TIME #
     ############################################
 
-    # get the trip information for that school
-    req_url_2 = f"https://api.ridemetro.org/data/CalculateItineraryArrivingAt?lat1={s_lat}&lon1={s_long}&lat2={HMW_lat}&lon2={HMW_long}&endTime=datetime'{bm_start_time}'&$orderby=EndTime&$expand=Legs&subscription-key={api_key}"
-    trip_2 = requests.get(req_url_2)
+    routes_2_url = f"https://maps.googleapis.com/maps/api/directions/json?arrival_time={bm_start_time}&alternatives=true&destination=place_id:{hmw_place_id}&mode=transit&origin=place_id:{school_place_id}&key={gm_api_key}"
+    routes_2 = requests.get(routes_2_url)
 
-    print("API CALL 2:", trip_2.status_code)
+    # save output as .json
+    api_2_str = json_loc + school_num + "_" + school_name + "_arr.txt"
 
-    # append output to list
-    routelist_arr = append_api_output_to_routelist(
-        trip_2, routelist_arr, s_num, s_name)
+    with open(api_2_str, 'w') as outfile:
+        json.dump(routes_2.json(), outfile, sort_keys=True, indent=4,
+                  ensure_ascii=False)
 
-    print(f"Done with school #{nrow + 1}: {s_name}")
+    end = pd.Series(
+        [school_num, school_name, routes_1.status_code, routes_2.status_code])
+    return(end)
 
-    # The API will return errors if I make too many requests at once. Thus, we will pause for 5 seconds after each loop
-    time.sleep(5)
+##################################
+# BRINGING IN SCHOOL INFORMATION #
+##################################
 
-# concatenating routelist routelist
 
-leave_route_leg = get_route_leg_list(routelist_leave)
-arr_route_leg = get_route_leg_list(routelist_arr)
+df_str = cleaned_data + "school_demo_geo.csv"
+df_cols = ['School_Num', 'School_Nam', 'End Time', 'Place_Id']
+df = pd.read_csv(df_str, usecols=df_cols, parse_dates=['End Time'])
 
-##########
-# OUTPUT #
-##########
+################################
+# HATTIE MAE WHITE INFORMATION #
+################################
 
-leave_route_leg[0].to_csv(
-    direc + "prep//raw_data//" + "metro_routes_leave.csv")
-leave_route_leg[1].to_csv(direc + "prep//raw_data//" + "metro_legs_leave.csv")
+# in this case, we really just need the place ID
+hmw_str = int_data + "HMW.csv"
+hmw = pd.read_csv(hmw_str, usecols=[1]).T
+hmw_place_id = hmw.iloc[0, 6]
 
-arr_route_leg[0].to_csv(direc + "prep//raw_data//" + "metro_routes_arr.csv")
-arr_route_leg[1].to_csv(direc + "prep//raw_data//" + "metro_legs_arr.csv")
+# board meeting time
+bm_start_time = int((datetime.datetime.combine(datetime.datetime.today(), datetime.time(
+    17, 00)) + datetime.timedelta(hours=6)).timestamp())
+
+#################################
+# PULLING THE ROUTE INFORMATION #
+#################################
+
+results = []
+
+# loop through each school
+for nrow in range(0, len(df)):
+
+    a = delayed(get_write_routes)(df.iloc[nrow, :])
+    results.append(a)
+
+# bring together all the concatenated results
+total = delayed(pd.concat)(results, axis=1)
+
+# compute everything
+final = total.compute()
+
+# print all the final codes
+print(final.T)
+
+end = time.perf_counter()
+
+print(f"Everything happened in {end - start:0.4f} seconds!")

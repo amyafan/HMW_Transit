@@ -1,0 +1,1968 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJBz1at_LCQIYR5IO6OpmQ5XQ",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "school"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJ9_tphxzHQIYRIMyPy_d3VZU",
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.803205,
+                    "lng": -95.4519566
+                },
+                "southwest": {
+                    "lat": 29.6964315,
+                    "lng": -95.54482619999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "9:49pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642045760
+                    },
+                    "departure_time": {
+                        "text": "8:38pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642041496
+                    },
+                    "distance": {
+                        "text": "13.4 mi",
+                        "value": 21623
+                    },
+                    "duration": {
+                        "text": "1 hour 11 mins",
+                        "value": 4264
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "8200 Carvel Ln, Houston, TX 77036, USA",
+                    "start_location": {
+                        "lat": 29.6974065,
+                        "lng": -95.52944389999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.6 mi",
+                                "value": 919
+                            },
+                            "duration": {
+                                "text": "11 mins",
+                                "value": 678
+                            },
+                            "end_location": {
+                                "lat": 29.6964355,
+                                "lng": -95.5376465
+                            },
+                            "html_instructions": "Walk to S Gessner Rd @ Triola Ln",
+                            "polyline": {
+                                "points": "yggtD~aafQ?bD?PkA@?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\zAAF??N?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlBH?"
+                            },
+                            "start_location": {
+                                "lat": 29.6974065,
+                                "lng": -95.52944389999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "272 ft",
+                                        "value": 83
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 58
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "html_instructions": "Head <b>west</b> toward <b>Mary Bates Blvd</b>",
+                                    "polyline": {
+                                        "points": "yggtD~aafQ?bD?P"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974065,
+                                        "lng": -95.52944389999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "151 ft",
+                                        "value": 46
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 35
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Mary Bates Blvd</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "yggtDtgafQkA@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.2 mi",
+                                        "value": 272
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 205
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ejgtDvgafQ?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "180 ft",
+                                        "value": 55
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 39
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Tanglewilde St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "{igtDxxafQzAAF??N"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.3 mi",
+                                        "value": 453
+                                    },
+                                    "duration": {
+                                        "text": "6 mins",
+                                        "value": 334
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "wfgtDfyafQ?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 7
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964355,
+                                        "lng": -95.5376465
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>S Gessner Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "abgtDhubfQH?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.1 mi",
+                                "value": 9857
+                            },
+                            "duration": {
+                                "text": "27 mins",
+                                "value": 1646
+                            },
+                            "end_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "html_instructions": "Bus towards Hempstead Hwy",
+                            "polyline": {
+                                "points": "wagtDfubfQ@HQ@cEPQ@U@e@@U?mBDu@@M?SAS?{E@M@oC@y@?S?uF@wEBmB@mA@w@?e@@MA_@@W?W@U@A?e@By@HC?UDGBwAVcAXqA`@iAT]FOBWDQB[DE?W@Y@M?Y@aCBy@?c@@g@@sA?G?G?_@?o@?g@?U?sB@o@@k@?a@?{@@a@?{A@m@?_C@i@?gC@M?eA@w@?[?uBBkA@U?cA@QAyA@kA?}A@M@wAB[?U?O?yA@iB@yA@Y?S?[@eA@Y?s@?g@?W?gDA{BAyAAwA@m@?S@mC@sCBc@BUA_A@a@?_@@}C?kB?{@@]?wCBoA?kA@uA?wABs@BS?u@?iB@oBBY?SAcBBa@?Y@eAAMA_@Ck@Eq@O]IYE_@G[EI?UCWA[CKAE?WAQAa@Cw@?K?_@CUCMCUEWEc@IOGi@Qi@O_@KA?e@Gm@G_ACe@?A?aA@U@G?_A?E?a@@wA?eD@_@?wA@sB@c@?O?I?oB@M?aEBkEBsB?[?eA@_@CqEBQAoDFWBe@DYDa@Hk@Pg@Tg@XA?g@\\C@{@l@WPcAr@]TIBWRmAx@e@`@CB_@^ABMLUXY\\QTSXYf@S\\GHS^eAnBEHWj@MNKLMP?@U\\[d@Wb@a@f@i@h@IH[VaAp@q@`@E@k@XQFKBa@NQFODOD[Fq@Nw@DkAF{@@cBE[EO?GAQ?K?Y?gA@{B?kABm@Aq@?qBBaB@mACeAGc@Gk@IiAWm@MaAOwAMgAGs@?}@?qA?Q?iD?sCBS?oF?oC?U?_B?iA@oCBU?gD?yABkA@yA?u@@W?mA?oA?sC@W?qD?A?c@?mADi@Ac@@A?M?m@Ac@?c@?OA]?c@Ac@?]?k@?y@?[?G?c@?e@AE?sAEu@EA?aAKkASc@GOC{@MICWCWCWCWC_@C@S"
+                            },
+                            "start_location": {
+                                "lat": 29.696436,
+                                "lng": -95.53763699999999
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "9:17pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642043820
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.696436,
+                                        "lng": -95.53763699999999
+                                    },
+                                    "name": "S Gessner Rd @ Triola Ln"
+                                },
+                                "departure_time": {
+                                    "text": "8:49pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042174
+                                },
+                                "headsign": "Hempstead Hwy",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gessner",
+                                    "short_name": "46",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n046-Gessner.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 32,
+                                "trip_short_name": "GESSNER"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.5 mi",
+                                "value": 10473
+                            },
+                            "duration": {
+                                "text": "24 mins",
+                                "value": 1455
+                            },
+                            "end_location": {
+                                "lat": 29.80140099999999,
+                                "lng": -95.45297
+                            },
+                            "html_instructions": "Bus towards Kashmere TC",
+                            "polyline": {
+                                "points": "i|wtDv{cfQARSAk@ASAOAg@?[AA?}@@_@Aw@?u@AC?i@?aA?QAaADA?g@D{@Da@DO@Y@S@A?w@BM@Y@S@U@SBYBI@OBA?QBUDE@k@L_@LIBSF]FYFC?c@DSB]Ba@@s@@c@?gABw@?W?[@_@?U?S?E?o@@m@AeB@S?y@@gA@c@?c@@k@?m@@oA@E?W?s@@BeB?g@?oB@Q?qA?Y?]?eB?q@@mA@}BA]?_A?a@LoA@KDWBY@Y?wAAy@?K?o@Ac@?Q?sA?_@Ec@?AO}@ACEWY}AUmAEUCQUiA[kBMq@EUCK[gBQgAGc@EYIe@G[G]Qw@Ia@UqAQ}@]sBSeASeACSMm@AGG[Ki@G_@Ki@G_@A?Ko@o@mDMo@_@wBMs@Ie@Qq@YsAACGU_@yAAEGUM_@Om@EUOm@EQMe@Oo@EQCOIYEQK_@COEMCMGUAICMGSEQMk@Sy@QuACOEc@Ge@C]CKE_@Eg@COE_@O{AQ}Aa@uDCUc@eEE]UqBKkAGc@MqAOwA_@sDGm@@I?K?IEoAMw@Gy@Ee@CUE]Ie@GUGUGSKUKWEKKU_@o@q@mA_@k@QWKQe@e@_@YCAWQMI[SCCQKUMGGGGWWWa@AASc@Sk@ACEQGUE]EY?EAM?GCs@?YIsBGaBAi@Cg@?_@?C?[B}B?[?mB@a@@gB@y@?WB}F?qA@qB?K?M?oA?YAq@?S?wC?aAAsF@sA?WA}D?c@?MAi@?e@COAW?i@Ay@?Y@k@?S@SES?G@]@I?[@_@?I?[@a@?]@E?m@@e@@y@?O?Y@o@@sB@g@?I@_B?s@@W?a@?Y@aA?S@i@?e@@}@@eA?g@@s@?s@?M?K?Y?U?U?GAK?GAI?E@Q?c@?K?E?A?C?A?A@C?E?Y@U?o@@uA@k@?a@?_@@[?Q?c@?O?]?e@@S?[?U?SAa@@S?y@?GAo@?_@?Q?S@_@?[@_A?[?oAAk@?O?Q?Q?[?c@?S?I@y@?G?Q?i@AuA?_A?aA?I?gAAw@?W?s@?U?U?m@?i@?o@Ag@?I?{A?O?q@?e@?eB?{A?UA]?kHAeI?EAY?kG?IAiC?s@?_BAoC?g@?qC?_CAoA?eA?M?s@AuC?Q?c@?e@?G?Q?I?oA?q@?i@?O?a@?c@?OAK?G?IAICGCECCEC?AKIEEOO`@o@FKt@gAb@q@HM`A{Ah@w@dA_Bh@y@@]EsB?]@g@?YAU?a@AyE?I?IAgA?uAAuC?o@@W?uC?W?]AuAAi@?iA?_BHA"
+                            },
+                            "start_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.80140099999999,
+                                        "lng": -95.45297
+                                    },
+                                    "name": "W 18th St @ Northwest Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "9:44pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642045455
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "departure_time": {
+                                    "text": "9:20pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044000
+                                },
+                                "headsign": "Kashmere TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Long Point / Cavalcade",
+                                    "short_name": "26",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n026-Long-Point-Cavalcade.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 42,
+                                "trip_short_name": "LONGPOINT"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 374
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 304
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "{q{tD`dreQ@]?g@@mACu@MDSFMD?j@?h@BnAAV@|@@hBYDe@F@D@R@f@?D"
+                            },
+                            "start_location": {
+                                "lat": 29.8014155,
+                                "lng": -95.4529697
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "328 ft",
+                                        "value": 100
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 78
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "html_instructions": "Head <b>east</b> on <b>W 18th St</b>/<wbr/><b>NW Mall</b> toward <b>W Loop S Fwy</b><div style=\"font-size:0.9em\">Pass by Burger King (on the right in 279&nbsp;ft)</div>",
+                                    "polyline": {
+                                        "points": "{q{tD`dreQ@]?g@@mACu@MD"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014155,
+                                        "lng": -95.4529697
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 198
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 165
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "html_instructions": "Cross the road",
+                                    "polyline": {
+                                        "points": "ir{tD|}qeQSFMD?j@?h@BnAAV@|@@hB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "131 ft",
+                                        "value": 40
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 34
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "es{tDpireQYDe@F"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "118 ft",
+                                        "value": 36
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 27
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "eu{tD~ireQ@D@R@f@?D"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "yggtD~aafQ?tDkA@?p@?R@lCD~E@lBbBA?b@Dl@L`AbAhFNr@Lp@Dh@@bA?RL|DHlBH?@F}FV_FHqG?uZLkC@gAB_BLYD_BZuCz@oCf@kAJcEFyEBaIB_NDgOH{F@_FFmKF{D@uKEgHDwDFuA?kI@aIDmHHcHDsD@_B?m@Ek@Eq@Ow@OeAMuAKqAGcA?u@G_BYy@YiA[g@GmBK_CBoB@gPDkOHoC?eBAcF@gEJ_AJmAZoAn@i@\\{CtBmCfBkAhAoAzAiAhByAnC]t@g@p@q@bAy@jAs@r@}AhAw@b@}@`@oA`@k@Lq@Nw@DkAF{@@_CKu@AiHD_BAsEDmACeAGoAQwBe@yC]{BGoC?cJBuN?mULyP@}CDcCAuGCwAAiCKcAK{Dm@qAOw@G@SAR_ACc@CcC?mCCaCAgDP_BJaBFwAJm@H[FkAZuAZyALaEFkFB}KD{CBs@@BeB?wC@{CBcJA}A?a@LoAFc@Ds@AmEAiDWgB{@yE{BkMM}@QaAy@iEsBcLeBqJeAaGu@_DcByGgAsEs@{CSy@QuAIs@UoB{BcTuBkS@UEyA_@mDOcAOk@e@mAk@eAqAyB]i@e@e@_@Y[Si@]s@e@_@_@Yc@g@oAGUMs@E_@EcBWgHB}DHuT@{EAwFC{TEwBAsA@_A@SES@e@BoAF_GH{KFeJ@}C?qAAaB@e@F_I@oE?cCAiBBoCAgD@cEC}KAmUKcy@AiRCg@QUa@a@bCuDzDaGh@y@@]EqC?yBCuHAkF@gAAaHAsB?_BHAA]@uBCu@MDa@L@|DBfD_ALDfA"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.803205,
+                    "lng": -95.4519566
+                },
+                "southwest": {
+                    "lat": 29.6964315,
+                    "lng": -95.54482619999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "9:19pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642043960
+                    },
+                    "departure_time": {
+                        "text": "8:08pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642039696
+                    },
+                    "distance": {
+                        "text": "13.4 mi",
+                        "value": 21623
+                    },
+                    "duration": {
+                        "text": "1 hour 11 mins",
+                        "value": 4264
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "8200 Carvel Ln, Houston, TX 77036, USA",
+                    "start_location": {
+                        "lat": 29.6974065,
+                        "lng": -95.52944389999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.6 mi",
+                                "value": 919
+                            },
+                            "duration": {
+                                "text": "11 mins",
+                                "value": 678
+                            },
+                            "end_location": {
+                                "lat": 29.6964355,
+                                "lng": -95.5376465
+                            },
+                            "html_instructions": "Walk to S Gessner Rd @ Triola Ln",
+                            "polyline": {
+                                "points": "yggtD~aafQ?bD?PkA@?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\zAAF??N?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlBH?"
+                            },
+                            "start_location": {
+                                "lat": 29.6974065,
+                                "lng": -95.52944389999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "272 ft",
+                                        "value": 83
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 58
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "html_instructions": "Head <b>west</b> toward <b>Mary Bates Blvd</b>",
+                                    "polyline": {
+                                        "points": "yggtD~aafQ?bD?P"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974065,
+                                        "lng": -95.52944389999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "151 ft",
+                                        "value": 46
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 35
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Mary Bates Blvd</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "yggtDtgafQkA@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.2 mi",
+                                        "value": 272
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 205
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ejgtDvgafQ?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "180 ft",
+                                        "value": 55
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 39
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Tanglewilde St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "{igtDxxafQzAAF??N"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.3 mi",
+                                        "value": 453
+                                    },
+                                    "duration": {
+                                        "text": "6 mins",
+                                        "value": 334
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "wfgtDfyafQ?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 7
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964355,
+                                        "lng": -95.5376465
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>S Gessner Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "abgtDhubfQH?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.1 mi",
+                                "value": 9857
+                            },
+                            "duration": {
+                                "text": "27 mins",
+                                "value": 1646
+                            },
+                            "end_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "html_instructions": "Bus towards Hempstead Hwy",
+                            "polyline": {
+                                "points": "wagtDfubfQ@HQ@cEPQ@U@e@@U?mBDu@@M?SAS?{E@M@oC@y@?S?uF@wEBmB@mA@w@?e@@MA_@@W?W@U@A?e@By@HC?UDGBwAVcAXqA`@iAT]FOBWDQB[DE?W@Y@M?Y@aCBy@?c@@g@@sA?G?G?_@?o@?g@?U?sB@o@@k@?a@?{@@a@?{A@m@?_C@i@?gC@M?eA@w@?[?uBBkA@U?cA@QAyA@kA?}A@M@wAB[?U?O?yA@iB@yA@Y?S?[@eA@Y?s@?g@?W?gDA{BAyAAwA@m@?S@mC@sCBc@BUA_A@a@?_@@}C?kB?{@@]?wCBoA?kA@uA?wABs@BS?u@?iB@oBBY?SAcBBa@?Y@eAAMA_@Ck@Eq@O]IYE_@G[EI?UCWA[CKAE?WAQAa@Cw@?K?_@CUCMCUEWEc@IOGi@Qi@O_@KA?e@Gm@G_ACe@?A?aA@U@G?_A?E?a@@wA?eD@_@?wA@sB@c@?O?I?oB@M?aEBkEBsB?[?eA@_@CqEBQAoDFWBe@DYDa@Hk@Pg@Tg@XA?g@\\C@{@l@WPcAr@]TIBWRmAx@e@`@CB_@^ABMLUXY\\QTSXYf@S\\GHS^eAnBEHWj@MNKLMP?@U\\[d@Wb@a@f@i@h@IH[VaAp@q@`@E@k@XQFKBa@NQFODOD[Fq@Nw@DkAF{@@cBE[EO?GAQ?K?Y?gA@{B?kABm@Aq@?qBBaB@mACeAGc@Gk@IiAWm@MaAOwAMgAGs@?}@?qA?Q?iD?sCBS?oF?oC?U?_B?iA@oCBU?gD?yABkA@yA?u@@W?mA?oA?sC@W?qD?A?c@?mADi@Ac@@A?M?m@Ac@?c@?OA]?c@Ac@?]?k@?y@?[?G?c@?e@AE?sAEu@EA?aAKkASc@GOC{@MICWCWCWCWC_@C@S"
+                            },
+                            "start_location": {
+                                "lat": 29.696436,
+                                "lng": -95.53763699999999
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:47pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042020
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.696436,
+                                        "lng": -95.53763699999999
+                                    },
+                                    "name": "S Gessner Rd @ Triola Ln"
+                                },
+                                "departure_time": {
+                                    "text": "8:19pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642040374
+                                },
+                                "headsign": "Hempstead Hwy",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gessner",
+                                    "short_name": "46",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n046-Gessner.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 32,
+                                "trip_short_name": "GESSNER"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.5 mi",
+                                "value": 10473
+                            },
+                            "duration": {
+                                "text": "24 mins",
+                                "value": 1455
+                            },
+                            "end_location": {
+                                "lat": 29.80140099999999,
+                                "lng": -95.45297
+                            },
+                            "html_instructions": "Bus towards Kashmere TC",
+                            "polyline": {
+                                "points": "i|wtDv{cfQARSAk@ASAOAg@?[AA?}@@_@Aw@?u@AC?i@?aA?QAaADA?g@D{@Da@DO@Y@S@A?w@BM@Y@S@U@SBYBI@OBA?QBUDE@k@L_@LIBSF]FYFC?c@DSB]Ba@@s@@c@?gABw@?W?[@_@?U?S?E?o@@m@AeB@S?y@@gA@c@?c@@k@?m@@oA@E?W?s@@BeB?g@?oB@Q?qA?Y?]?eB?q@@mA@}BA]?_A?a@LoA@KDWBY@Y?wAAy@?K?o@Ac@?Q?sA?_@Ec@?AO}@ACEWY}AUmAEUCQUiA[kBMq@EUCK[gBQgAGc@EYIe@G[G]Qw@Ia@UqAQ}@]sBSeASeACSMm@AGG[Ki@G_@Ki@G_@A?Ko@o@mDMo@_@wBMs@Ie@Qq@YsAACGU_@yAAEGUM_@Om@EUOm@EQMe@Oo@EQCOIYEQK_@COEMCMGUAICMGSEQMk@Sy@QuACOEc@Ge@C]CKE_@Eg@COE_@O{AQ}Aa@uDCUc@eEE]UqBKkAGc@MqAOwA_@sDGm@@I?K?IEoAMw@Gy@Ee@CUE]Ie@GUGUGSKUKWEKKU_@o@q@mA_@k@QWKQe@e@_@YCAWQMI[SCCQKUMGGGGWWWa@AASc@Sk@ACEQGUE]EY?EAM?GCs@?YIsBGaBAi@Cg@?_@?C?[B}B?[?mB@a@@gB@y@?WB}F?qA@qB?K?M?oA?YAq@?S?wC?aAAsF@sA?WA}D?c@?MAi@?e@COAW?i@Ay@?Y@k@?S@SES?G@]@I?[@_@?I?[@a@?]@E?m@@e@@y@?O?Y@o@@sB@g@?I@_B?s@@W?a@?Y@aA?S@i@?e@@}@@eA?g@@s@?s@?M?K?Y?U?U?GAK?GAI?E@Q?c@?K?E?A?C?A?A@C?E?Y@U?o@@uA@k@?a@?_@@[?Q?c@?O?]?e@@S?[?U?SAa@@S?y@?GAo@?_@?Q?S@_@?[@_A?[?oAAk@?O?Q?Q?[?c@?S?I@y@?G?Q?i@AuA?_A?aA?I?gAAw@?W?s@?U?U?m@?i@?o@Ag@?I?{A?O?q@?e@?eB?{A?UA]?kHAeI?EAY?kG?IAiC?s@?_BAoC?g@?qC?_CAoA?eA?M?s@AuC?Q?c@?e@?G?Q?I?oA?q@?i@?O?a@?c@?OAK?G?IAICGCECCEC?AKIEEOO`@o@FKt@gAb@q@HM`A{Ah@w@dA_Bh@y@@]EsB?]@g@?YAU?a@AyE?I?IAgA?uAAuC?o@@W?uC?W?]AuAAi@?iA?_BHA"
+                            },
+                            "start_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.80140099999999,
+                                        "lng": -95.45297
+                                    },
+                                    "name": "W 18th St @ Northwest Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "9:14pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642043655
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "departure_time": {
+                                    "text": "8:50pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042200
+                                },
+                                "headsign": "Kashmere TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Long Point / Cavalcade",
+                                    "short_name": "26",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n026-Long-Point-Cavalcade.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 42,
+                                "trip_short_name": "LONGPOINT"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 374
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 304
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "{q{tD`dreQ@]?g@@mACu@MDSFMD?j@?h@BnAAV@|@@hBYDe@F@D@R@f@?D"
+                            },
+                            "start_location": {
+                                "lat": 29.8014155,
+                                "lng": -95.4529697
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "328 ft",
+                                        "value": 100
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 78
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "html_instructions": "Head <b>east</b> on <b>W 18th St</b>/<wbr/><b>NW Mall</b> toward <b>W Loop S Fwy</b><div style=\"font-size:0.9em\">Pass by Burger King (on the right in 279&nbsp;ft)</div>",
+                                    "polyline": {
+                                        "points": "{q{tD`dreQ@]?g@@mACu@MD"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014155,
+                                        "lng": -95.4529697
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 198
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 165
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "html_instructions": "Cross the road",
+                                    "polyline": {
+                                        "points": "ir{tD|}qeQSFMD?j@?h@BnAAV@|@@hB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "131 ft",
+                                        "value": 40
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 34
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "es{tDpireQYDe@F"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "118 ft",
+                                        "value": 36
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 27
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "eu{tD~ireQ@D@R@f@?D"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "yggtD~aafQ?tDkA@?p@?R@lCD~E@lBbBA?b@Dl@L`AbAhFNr@Lp@Dh@@bA?RL|DHlBH?@F}FV_FHqG?uZLkC@gAB_BLYD_BZuCz@oCf@kAJcEFyEBaIB_NDgOH{F@_FFmKF{D@uKEgHDwDFuA?kI@aIDmHHcHDsD@_B?m@Ek@Eq@Ow@OeAMuAKqAGcA?u@G_BYy@YiA[g@GmBK_CBoB@gPDkOHoC?eBAcF@gEJ_AJmAZoAn@i@\\{CtBmCfBkAhAoAzAiAhByAnC]t@g@p@q@bAy@jAs@r@}AhAw@b@}@`@oA`@k@Lq@Nw@DkAF{@@_CKu@AiHD_BAsEDmACeAGoAQwBe@yC]{BGoC?cJBuN?mULyP@}CDcCAuGCwAAiCKcAK{Dm@qAOw@G@SAR_ACc@CcC?mCCaCAgDP_BJaBFwAJm@H[FkAZuAZyALaEFkFB}KD{CBs@@BeB?wC@{CBcJA}A?a@LoAFc@Ds@AmEAiDWgB{@yE{BkMM}@QaAy@iEsBcLeBqJeAaGu@_DcByGgAsEs@{CSy@QuAIs@UoB{BcTuBkS@UEyA_@mDOcAOk@e@mAk@eAqAyB]i@e@e@_@Y[Si@]s@e@_@_@Yc@g@oAGUMs@E_@EcBWgHB}DHuT@{EAwFC{TEwBAsA@_A@SES@e@BoAF_GH{KFeJ@}C?qAAaB@e@F_I@oE?cCAiBBoCAgD@cEC}KAmUKcy@AiRCg@QUa@a@bCuDzDaGh@y@@]EqC?yBCuHAkF@gAAaHAsB?_BHAA]@uBCu@MDa@L@|DBfD_ALDfA"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.803205,
+                    "lng": -95.4519566
+                },
+                "southwest": {
+                    "lat": 29.6964315,
+                    "lng": -95.54482619999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "9:04pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642043060
+                    },
+                    "departure_time": {
+                        "text": "7:53pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642038796
+                    },
+                    "distance": {
+                        "text": "13.4 mi",
+                        "value": 21623
+                    },
+                    "duration": {
+                        "text": "1 hour 11 mins",
+                        "value": 4264
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "8200 Carvel Ln, Houston, TX 77036, USA",
+                    "start_location": {
+                        "lat": 29.6974065,
+                        "lng": -95.52944389999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.6 mi",
+                                "value": 919
+                            },
+                            "duration": {
+                                "text": "11 mins",
+                                "value": 678
+                            },
+                            "end_location": {
+                                "lat": 29.6964355,
+                                "lng": -95.5376465
+                            },
+                            "html_instructions": "Walk to S Gessner Rd @ Triola Ln",
+                            "polyline": {
+                                "points": "yggtD~aafQ?bD?PkA@?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\zAAF??N?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlBH?"
+                            },
+                            "start_location": {
+                                "lat": 29.6974065,
+                                "lng": -95.52944389999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "272 ft",
+                                        "value": 83
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 58
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "html_instructions": "Head <b>west</b> toward <b>Mary Bates Blvd</b>",
+                                    "polyline": {
+                                        "points": "yggtD~aafQ?bD?P"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974065,
+                                        "lng": -95.52944389999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "151 ft",
+                                        "value": 46
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 35
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Mary Bates Blvd</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "yggtDtgafQkA@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.2 mi",
+                                        "value": 272
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 205
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ejgtDvgafQ?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "180 ft",
+                                        "value": 55
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 39
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Tanglewilde St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "{igtDxxafQzAAF??N"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.3 mi",
+                                        "value": 453
+                                    },
+                                    "duration": {
+                                        "text": "6 mins",
+                                        "value": 334
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "wfgtDfyafQ?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 7
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964355,
+                                        "lng": -95.5376465
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>S Gessner Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "abgtDhubfQH?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.1 mi",
+                                "value": 9857
+                            },
+                            "duration": {
+                                "text": "27 mins",
+                                "value": 1646
+                            },
+                            "end_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "html_instructions": "Bus towards Hempstead Hwy",
+                            "polyline": {
+                                "points": "wagtDfubfQ@HQ@cEPQ@U@e@@U?mBDu@@M?SAS?{E@M@oC@y@?S?uF@wEBmB@mA@w@?e@@MA_@@W?W@U@A?e@By@HC?UDGBwAVcAXqA`@iAT]FOBWDQB[DE?W@Y@M?Y@aCBy@?c@@g@@sA?G?G?_@?o@?g@?U?sB@o@@k@?a@?{@@a@?{A@m@?_C@i@?gC@M?eA@w@?[?uBBkA@U?cA@QAyA@kA?}A@M@wAB[?U?O?yA@iB@yA@Y?S?[@eA@Y?s@?g@?W?gDA{BAyAAwA@m@?S@mC@sCBc@BUA_A@a@?_@@}C?kB?{@@]?wCBoA?kA@uA?wABs@BS?u@?iB@oBBY?SAcBBa@?Y@eAAMA_@Ck@Eq@O]IYE_@G[EI?UCWA[CKAE?WAQAa@Cw@?K?_@CUCMCUEWEc@IOGi@Qi@O_@KA?e@Gm@G_ACe@?A?aA@U@G?_A?E?a@@wA?eD@_@?wA@sB@c@?O?I?oB@M?aEBkEBsB?[?eA@_@CqEBQAoDFWBe@DYDa@Hk@Pg@Tg@XA?g@\\C@{@l@WPcAr@]TIBWRmAx@e@`@CB_@^ABMLUXY\\QTSXYf@S\\GHS^eAnBEHWj@MNKLMP?@U\\[d@Wb@a@f@i@h@IH[VaAp@q@`@E@k@XQFKBa@NQFODOD[Fq@Nw@DkAF{@@cBE[EO?GAQ?K?Y?gA@{B?kABm@Aq@?qBBaB@mACeAGc@Gk@IiAWm@MaAOwAMgAGs@?}@?qA?Q?iD?sCBS?oF?oC?U?_B?iA@oCBU?gD?yABkA@yA?u@@W?mA?oA?sC@W?qD?A?c@?mADi@Ac@@A?M?m@Ac@?c@?OA]?c@Ac@?]?k@?y@?[?G?c@?e@AE?sAEu@EA?aAKkASc@GOC{@MICWCWCWCWC_@C@S"
+                            },
+                            "start_location": {
+                                "lat": 29.696436,
+                                "lng": -95.53763699999999
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:32pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041120
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.696436,
+                                        "lng": -95.53763699999999
+                                    },
+                                    "name": "S Gessner Rd @ Triola Ln"
+                                },
+                                "departure_time": {
+                                    "text": "8:04pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642039474
+                                },
+                                "headsign": "Hempstead Hwy",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gessner",
+                                    "short_name": "46",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n046-Gessner.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 32,
+                                "trip_short_name": "GESSNER"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.5 mi",
+                                "value": 10473
+                            },
+                            "duration": {
+                                "text": "24 mins",
+                                "value": 1455
+                            },
+                            "end_location": {
+                                "lat": 29.80140099999999,
+                                "lng": -95.45297
+                            },
+                            "html_instructions": "Bus towards Kashmere TC",
+                            "polyline": {
+                                "points": "i|wtDv{cfQARSAk@ASAOAg@?[AA?}@@_@Aw@?u@AC?i@?aA?QAaADA?g@D{@Da@DO@Y@S@A?w@BM@Y@S@U@SBYBI@OBA?QBUDE@k@L_@LIBSF]FYFC?c@DSB]Ba@@s@@c@?gABw@?W?[@_@?U?S?E?o@@m@AeB@S?y@@gA@c@?c@@k@?m@@oA@E?W?s@@BeB?g@?oB@Q?qA?Y?]?eB?q@@mA@}BA]?_A?a@LoA@KDWBY@Y?wAAy@?K?o@Ac@?Q?sA?_@Ec@?AO}@ACEWY}AUmAEUCQUiA[kBMq@EUCK[gBQgAGc@EYIe@G[G]Qw@Ia@UqAQ}@]sBSeASeACSMm@AGG[Ki@G_@Ki@G_@A?Ko@o@mDMo@_@wBMs@Ie@Qq@YsAACGU_@yAAEGUM_@Om@EUOm@EQMe@Oo@EQCOIYEQK_@COEMCMGUAICMGSEQMk@Sy@QuACOEc@Ge@C]CKE_@Eg@COE_@O{AQ}Aa@uDCUc@eEE]UqBKkAGc@MqAOwA_@sDGm@@I?K?IEoAMw@Gy@Ee@CUE]Ie@GUGUGSKUKWEKKU_@o@q@mA_@k@QWKQe@e@_@YCAWQMI[SCCQKUMGGGGWWWa@AASc@Sk@ACEQGUE]EY?EAM?GCs@?YIsBGaBAi@Cg@?_@?C?[B}B?[?mB@a@@gB@y@?WB}F?qA@qB?K?M?oA?YAq@?S?wC?aAAsF@sA?WA}D?c@?MAi@?e@COAW?i@Ay@?Y@k@?S@SES?G@]@I?[@_@?I?[@a@?]@E?m@@e@@y@?O?Y@o@@sB@g@?I@_B?s@@W?a@?Y@aA?S@i@?e@@}@@eA?g@@s@?s@?M?K?Y?U?U?GAK?GAI?E@Q?c@?K?E?A?C?A?A@C?E?Y@U?o@@uA@k@?a@?_@@[?Q?c@?O?]?e@@S?[?U?SAa@@S?y@?GAo@?_@?Q?S@_@?[@_A?[?oAAk@?O?Q?Q?[?c@?S?I@y@?G?Q?i@AuA?_A?aA?I?gAAw@?W?s@?U?U?m@?i@?o@Ag@?I?{A?O?q@?e@?eB?{A?UA]?kHAeI?EAY?kG?IAiC?s@?_BAoC?g@?qC?_CAoA?eA?M?s@AuC?Q?c@?e@?G?Q?I?oA?q@?i@?O?a@?c@?OAK?G?IAICGCECCEC?AKIEEOO`@o@FKt@gAb@q@HM`A{Ah@w@dA_Bh@y@@]EsB?]@g@?YAU?a@AyE?I?IAgA?uAAuC?o@@W?uC?W?]AuAAi@?iA?_BHA"
+                            },
+                            "start_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.80140099999999,
+                                        "lng": -95.45297
+                                    },
+                                    "name": "W 18th St @ Northwest Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:59pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042755
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "departure_time": {
+                                    "text": "8:35pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041300
+                                },
+                                "headsign": "Kashmere TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Long Point / Cavalcade",
+                                    "short_name": "26",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n026-Long-Point-Cavalcade.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 42,
+                                "trip_short_name": "LONGPOINT"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 374
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 304
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "{q{tD`dreQ@]?g@@mACu@MDSFMD?j@?h@BnAAV@|@@hBYDe@F@D@R@f@?D"
+                            },
+                            "start_location": {
+                                "lat": 29.8014155,
+                                "lng": -95.4529697
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "328 ft",
+                                        "value": 100
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 78
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "html_instructions": "Head <b>east</b> on <b>W 18th St</b>/<wbr/><b>NW Mall</b> toward <b>W Loop S Fwy</b><div style=\"font-size:0.9em\">Pass by Burger King (on the right in 279&nbsp;ft)</div>",
+                                    "polyline": {
+                                        "points": "{q{tD`dreQ@]?g@@mACu@MD"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014155,
+                                        "lng": -95.4529697
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 198
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 165
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "html_instructions": "Cross the road",
+                                    "polyline": {
+                                        "points": "ir{tD|}qeQSFMD?j@?h@BnAAV@|@@hB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "131 ft",
+                                        "value": 40
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 34
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "es{tDpireQYDe@F"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "118 ft",
+                                        "value": 36
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 27
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "eu{tD~ireQ@D@R@f@?D"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "yggtD~aafQ?tDkA@?p@?R@lCD~E@lBbBA?b@Dl@L`AbAhFNr@Lp@Dh@@bA?RL|DHlBH?@F}FV_FHqG?uZLkC@gAB_BLYD_BZuCz@oCf@kAJcEFyEBaIB_NDgOH{F@_FFmKF{D@uKEgHDwDFuA?kI@aIDmHHcHDsD@_B?m@Ek@Eq@Ow@OeAMuAKqAGcA?u@G_BYy@YiA[g@GmBK_CBoB@gPDkOHoC?eBAcF@gEJ_AJmAZoAn@i@\\{CtBmCfBkAhAoAzAiAhByAnC]t@g@p@q@bAy@jAs@r@}AhAw@b@}@`@oA`@k@Lq@Nw@DkAF{@@_CKu@AiHD_BAsEDmACeAGoAQwBe@yC]{BGoC?cJBuN?mULyP@}CDcCAuGCwAAiCKcAK{Dm@qAOw@G@SAR_ACc@CcC?mCCaCAgDP_BJaBFwAJm@H[FkAZuAZyALaEFkFB}KD{CBs@@BeB?wC@{CBcJA}A?a@LoAFc@Ds@AmEAiDWgB{@yE{BkMM}@QaAy@iEsBcLeBqJeAaGu@_DcByGgAsEs@{CSy@QuAIs@UoB{BcTuBkS@UEyA_@mDOcAOk@e@mAk@eAqAyB]i@e@e@_@Y[Si@]s@e@_@_@Yc@g@oAGUMs@E_@EcBWgHB}DHuT@{EAwFC{TEwBAsA@_A@SES@e@BoAF_GH{KFeJ@}C?qAAaB@e@F_I@oE?cCAiBBoCAgD@cEC}KAmUKcy@AiRCg@QUa@a@bCuDzDaGh@y@@]EqC?yBCuHAkF@gAAaHAsB?_BHAA]@uBCu@MDa@L@|DBfD_ALDfA"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.803205,
+                    "lng": -95.4519566
+                },
+                "southwest": {
+                    "lat": 29.6964315,
+                    "lng": -95.54482619999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "8:49pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642042160
+                    },
+                    "departure_time": {
+                        "text": "7:38pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642037896
+                    },
+                    "distance": {
+                        "text": "13.4 mi",
+                        "value": 21623
+                    },
+                    "duration": {
+                        "text": "1 hour 11 mins",
+                        "value": 4264
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "8200 Carvel Ln, Houston, TX 77036, USA",
+                    "start_location": {
+                        "lat": 29.6974065,
+                        "lng": -95.52944389999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.6 mi",
+                                "value": 919
+                            },
+                            "duration": {
+                                "text": "11 mins",
+                                "value": 678
+                            },
+                            "end_location": {
+                                "lat": 29.6964355,
+                                "lng": -95.5376465
+                            },
+                            "html_instructions": "Walk to S Gessner Rd @ Triola Ln",
+                            "polyline": {
+                                "points": "yggtD~aafQ?bD?PkA@?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\zAAF??N?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlBH?"
+                            },
+                            "start_location": {
+                                "lat": 29.6974065,
+                                "lng": -95.52944389999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "272 ft",
+                                        "value": 83
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 58
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "html_instructions": "Head <b>west</b> toward <b>Mary Bates Blvd</b>",
+                                    "polyline": {
+                                        "points": "yggtD~aafQ?bD?P"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974065,
+                                        "lng": -95.52944389999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "151 ft",
+                                        "value": 46
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 35
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Mary Bates Blvd</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "yggtDtgafQkA@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6974079,
+                                        "lng": -95.5303467
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.2 mi",
+                                        "value": 272
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 205
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ejgtDvgafQ?p@?B?N@fA?dA@~@?P@Z@pB?N@h@?T?\\"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977877,
+                                        "lng": -95.53035729999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "180 ft",
+                                        "value": 55
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 39
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Tanglewilde St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "{igtDxxafQzAAF??N"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6977384,
+                                        "lng": -95.53309379999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.3 mi",
+                                        "value": 453
+                                    },
+                                    "duration": {
+                                        "text": "6 mins",
+                                        "value": 334
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Triola Ln</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "wfgtDfyafQ?R@VBTDXFf@F`@@DHb@n@|CFRF^F\\DR@TBR@R?n@?N?B?ZL`DHlB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6972411,
+                                        "lng": -95.5331618
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 7
+                                    },
+                                    "end_location": {
+                                        "lat": 29.6964355,
+                                        "lng": -95.5376465
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>S Gessner Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "abgtDhubfQH?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.6964854,
+                                        "lng": -95.5376525
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.1 mi",
+                                "value": 9857
+                            },
+                            "duration": {
+                                "text": "27 mins",
+                                "value": 1646
+                            },
+                            "end_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "html_instructions": "Bus towards Hempstead Hwy",
+                            "polyline": {
+                                "points": "wagtDfubfQ@HQ@cEPQ@U@e@@U?mBDu@@M?SAS?{E@M@oC@y@?S?uF@wEBmB@mA@w@?e@@MA_@@W?W@U@A?e@By@HC?UDGBwAVcAXqA`@iAT]FOBWDQB[DE?W@Y@M?Y@aCBy@?c@@g@@sA?G?G?_@?o@?g@?U?sB@o@@k@?a@?{@@a@?{A@m@?_C@i@?gC@M?eA@w@?[?uBBkA@U?cA@QAyA@kA?}A@M@wAB[?U?O?yA@iB@yA@Y?S?[@eA@Y?s@?g@?W?gDA{BAyAAwA@m@?S@mC@sCBc@BUA_A@a@?_@@}C?kB?{@@]?wCBoA?kA@uA?wABs@BS?u@?iB@oBBY?SAcBBa@?Y@eAAMA_@Ck@Eq@O]IYE_@G[EI?UCWA[CKAE?WAQAa@Cw@?K?_@CUCMCUEWEc@IOGi@Qi@O_@KA?e@Gm@G_ACe@?A?aA@U@G?_A?E?a@@wA?eD@_@?wA@sB@c@?O?I?oB@M?aEBkEBsB?[?eA@_@CqEBQAoDFWBe@DYDa@Hk@Pg@Tg@XA?g@\\C@{@l@WPcAr@]TIBWRmAx@e@`@CB_@^ABMLUXY\\QTSXYf@S\\GHS^eAnBEHWj@MNKLMP?@U\\[d@Wb@a@f@i@h@IH[VaAp@q@`@E@k@XQFKBa@NQFODOD[Fq@Nw@DkAF{@@cBE[EO?GAQ?K?Y?gA@{B?kABm@Aq@?qBBaB@mACeAGc@Gk@IiAWm@MaAOwAMgAGs@?}@?qA?Q?iD?sCBS?oF?oC?U?_B?iA@oCBU?gD?yABkA@yA?u@@W?mA?oA?sC@W?qD?A?c@?mADi@Ac@@A?M?m@Ac@?c@?OA]?c@Ac@?]?k@?y@?[?G?c@?e@AE?sAEu@EA?aAKkASc@GOC{@MICWCWCWCWC_@C@S"
+                            },
+                            "start_location": {
+                                "lat": 29.696436,
+                                "lng": -95.53763699999999
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:17pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642040220
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.696436,
+                                        "lng": -95.53763699999999
+                                    },
+                                    "name": "S Gessner Rd @ Triola Ln"
+                                },
+                                "departure_time": {
+                                    "text": "7:49pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642038574
+                                },
+                                "headsign": "Hempstead Hwy",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gessner",
+                                    "short_name": "46",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n046-Gessner.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 32,
+                                "trip_short_name": "GESSNER"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.5 mi",
+                                "value": 10473
+                            },
+                            "duration": {
+                                "text": "24 mins",
+                                "value": 1455
+                            },
+                            "end_location": {
+                                "lat": 29.80140099999999,
+                                "lng": -95.45297
+                            },
+                            "html_instructions": "Bus towards Kashmere TC",
+                            "polyline": {
+                                "points": "i|wtDv{cfQARSAk@ASAOAg@?[AA?}@@_@Aw@?u@AC?i@?aA?QAaADA?g@D{@Da@DO@Y@S@A?w@BM@Y@S@U@SBYBI@OBA?QBUDE@k@L_@LIBSF]FYFC?c@DSB]Ba@@s@@c@?gABw@?W?[@_@?U?S?E?o@@m@AeB@S?y@@gA@c@?c@@k@?m@@oA@E?W?s@@BeB?g@?oB@Q?qA?Y?]?eB?q@@mA@}BA]?_A?a@LoA@KDWBY@Y?wAAy@?K?o@Ac@?Q?sA?_@Ec@?AO}@ACEWY}AUmAEUCQUiA[kBMq@EUCK[gBQgAGc@EYIe@G[G]Qw@Ia@UqAQ}@]sBSeASeACSMm@AGG[Ki@G_@Ki@G_@A?Ko@o@mDMo@_@wBMs@Ie@Qq@YsAACGU_@yAAEGUM_@Om@EUOm@EQMe@Oo@EQCOIYEQK_@COEMCMGUAICMGSEQMk@Sy@QuACOEc@Ge@C]CKE_@Eg@COE_@O{AQ}Aa@uDCUc@eEE]UqBKkAGc@MqAOwA_@sDGm@@I?K?IEoAMw@Gy@Ee@CUE]Ie@GUGUGSKUKWEKKU_@o@q@mA_@k@QWKQe@e@_@YCAWQMI[SCCQKUMGGGGWWWa@AASc@Sk@ACEQGUE]EY?EAM?GCs@?YIsBGaBAi@Cg@?_@?C?[B}B?[?mB@a@@gB@y@?WB}F?qA@qB?K?M?oA?YAq@?S?wC?aAAsF@sA?WA}D?c@?MAi@?e@COAW?i@Ay@?Y@k@?S@SES?G@]@I?[@_@?I?[@a@?]@E?m@@e@@y@?O?Y@o@@sB@g@?I@_B?s@@W?a@?Y@aA?S@i@?e@@}@@eA?g@@s@?s@?M?K?Y?U?U?GAK?GAI?E@Q?c@?K?E?A?C?A?A@C?E?Y@U?o@@uA@k@?a@?_@@[?Q?c@?O?]?e@@S?[?U?SAa@@S?y@?GAo@?_@?Q?S@_@?[@_A?[?oAAk@?O?Q?Q?[?c@?S?I@y@?G?Q?i@AuA?_A?aA?I?gAAw@?W?s@?U?U?m@?i@?o@Ag@?I?{A?O?q@?e@?eB?{A?UA]?kHAeI?EAY?kG?IAiC?s@?_BAoC?g@?qC?_CAoA?eA?M?s@AuC?Q?c@?e@?G?Q?I?oA?q@?i@?O?a@?c@?OAK?G?IAICGCECCEC?AKIEEOO`@o@FKt@gAb@q@HM`A{Ah@w@dA_Bh@y@@]EsB?]@g@?YAU?a@AyE?I?IAgA?uAAuC?o@@W?uC?W?]AuAAi@?iA?_BHA"
+                            },
+                            "start_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.80140099999999,
+                                        "lng": -95.45297
+                                    },
+                                    "name": "W 18th St @ Northwest Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:44pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041855
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "departure_time": {
+                                    "text": "8:20pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642040400
+                                },
+                                "headsign": "Kashmere TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Long Point / Cavalcade",
+                                    "short_name": "26",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n026-Long-Point-Cavalcade.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 42,
+                                "trip_short_name": "LONGPOINT"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 374
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 304
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "{q{tD`dreQ@]?g@@mACu@MDSFMD?j@?h@BnAAV@|@@hBYDe@F@D@R@f@?D"
+                            },
+                            "start_location": {
+                                "lat": 29.8014155,
+                                "lng": -95.4529697
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "328 ft",
+                                        "value": 100
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 78
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "html_instructions": "Head <b>east</b> on <b>W 18th St</b>/<wbr/><b>NW Mall</b> toward <b>W Loop S Fwy</b><div style=\"font-size:0.9em\">Pass by Burger King (on the right in 279&nbsp;ft)</div>",
+                                    "polyline": {
+                                        "points": "{q{tD`dreQ@]?g@@mACu@MD"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014155,
+                                        "lng": -95.4529697
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 198
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 165
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "html_instructions": "Cross the road",
+                                    "polyline": {
+                                        "points": "ir{tD|}qeQSFMD?j@?h@BnAAV@|@@hB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "131 ft",
+                                        "value": 40
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 34
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "es{tDpireQYDe@F"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "118 ft",
+                                        "value": 36
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 27
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "eu{tD~ireQ@D@R@f@?D"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "yggtD~aafQ?tDkA@?p@?R@lCD~E@lBbBA?b@Dl@L`AbAhFNr@Lp@Dh@@bA?RL|DHlBH?@F}FV_FHqG?uZLkC@gAB_BLYD_BZuCz@oCf@kAJcEFyEBaIB_NDgOH{F@_FFmKF{D@uKEgHDwDFuA?kI@aIDmHHcHDsD@_B?m@Ek@Eq@Ow@OeAMuAKqAGcA?u@G_BYy@YiA[g@GmBK_CBoB@gPDkOHoC?eBAcF@gEJ_AJmAZoAn@i@\\{CtBmCfBkAhAoAzAiAhByAnC]t@g@p@q@bAy@jAs@r@}AhAw@b@}@`@oA`@k@Lq@Nw@DkAF{@@_CKu@AiHD_BAsEDmACeAGoAQwBe@yC]{BGoC?cJBuN?mULyP@}CDcCAuGCwAAiCKcAK{Dm@qAOw@G@SAR_ACc@CcC?mCCaCAgDP_BJaBFwAJm@H[FkAZuAZyALaEFkFB}KD{CBs@@BeB?wC@{CBcJA}A?a@LoAFc@Ds@AmEAiDWgB{@yE{BkMM}@QaAy@iEsBcLeBqJeAaGu@_DcByGgAsEs@{CSy@QuAIs@UoB{BcTuBkS@UEyA_@mDOcAOk@e@mAk@eAqAyB]i@e@e@_@Y[Si@]s@e@_@_@Yc@g@oAGUMs@E_@EcBWgHB}DHuT@{EAwFC{TEwBAsA@_A@SES@e@BoAF_GH{KFeJ@}C?qAAaB@e@F_I@oE?cCAiBBoCAgD@cEC}KAmUKcy@AiRCg@QUa@a@bCuDzDaGh@y@@]EqC?yBCuHAkF@gAAaHAsB?_BHAA]@uBCu@MDa@L@|DBfD_ALDfA"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
