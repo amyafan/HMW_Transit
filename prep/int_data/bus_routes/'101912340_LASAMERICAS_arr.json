@@ -1,0 +1,2616 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJf88rUT_CQIYRZ_HKoGQxFrU",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "school"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJ9_tphxzHQIYRIMyPy_d3VZU",
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.8026444,
+                    "lng": -95.45426839999999
+                },
+                "southwest": {
+                    "lat": 29.7039304,
+                    "lng": -95.50118599999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "9:46pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642045572
+                    },
+                    "departure_time": {
+                        "text": "8:31pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642041091
+                    },
+                    "distance": {
+                        "text": "10.8 mi",
+                        "value": 17338
+                    },
+                    "duration": {
+                        "text": "1 hour 15 mins",
+                        "value": 4481
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "6501 Bellaire Blvd, Houston, TX 77074, USA",
+                    "start_location": {
+                        "lat": 29.7039304,
+                        "lng": -95.49820609999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.4 mi",
+                                "value": 670
+                            },
+                            "duration": {
+                                "text": "8 mins",
+                                "value": 509
+                            },
+                            "end_location": {
+                                "lat": 29.7052678,
+                                "lng": -95.4929247
+                            },
+                            "html_instructions": "Walk to Hillcroft Ave @ Bellaire Blvd",
+                            "polyline": {
+                                "points": "qphtDx~zeQ?}@?YM??_@?a@?a@uA@iD?AOAoE?cBA_B?aB?kA?aCEMAeA?O@]?OLA"
+                            },
+                            "start_location": {
+                                "lat": 29.7039304,
+                                "lng": -95.49820609999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "312 ft",
+                                        "value": 95
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 73
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7040024,
+                                        "lng": -95.4972671
+                                    },
+                                    "html_instructions": "Head <b>east</b> toward <b>Rookin St</b>",
+                                    "polyline": {
+                                        "points": "qphtDx~zeQ?}@?YM??_@?a@?a@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7039304,
+                                        "lng": -95.49820609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "495 ft",
+                                        "value": 151
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 107
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7052853,
+                                        "lng": -95.497196
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Rookin St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "_qhtD|xzeQuA@iD?AO"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7040024,
+                                        "lng": -95.4972671
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.3 mi",
+                                        "value": 413
+                                    },
+                                    "duration": {
+                                        "text": "5 mins",
+                                        "value": 311
+                                    },
+                                    "end_location": {
+                                        "lat": 29.705335,
+                                        "lng": -95.4929265
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Bellaire Blvd</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ayhtDnxzeQAoE?cBA_B?aB?kA?aCEMAeA?O@]?O"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7052853,
+                                        "lng": -95.497196
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "36 ft",
+                                        "value": 11
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 18
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7052678,
+                                        "lng": -95.4929247
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Hillcroft Ave</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "kyhtDx}yeQLA"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.705335,
+                                        "lng": -95.4929265
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "8.1 mi",
+                                "value": 12989
+                            },
+                            "duration": {
+                                "text": "31 mins",
+                                "value": 1860
+                            },
+                            "end_location": {
+                                "lat": 29.783077,
+                                "lng": -95.455467
+                            },
+                            "html_instructions": "Bus towards Northwest TC",
+                            "polyline": {
+                                "points": "{xhtDn}yeQ?PU?_@@{AAsA@oBBU@O?UAm@A_A@eA?e@@M?M?c@@u@@C?G?MAi@AM@yA@q@@C?]BoALYFSDu@PeA^EBs@\\_@ROJSLIFQLIFa@\\UTmAxAs@x@]\\KLQR?@ONCD_@h@WZe@l@KNSTUXQPMNMPWXOTIJ_@b@iArAKNQRKLg@l@_@\\YVWVc@j@IJIJQRMPKJABQRABA?A@GHEFCBWZ[\\SV[^q@x@MN_@X[PMHULSJYJUFkAVMDUDQDs@FY@S@uAD_C?mABaA?mA?mBB_A?S?A?g@?cDBaB?M?Y@{A?c@?gA@a@@c@?qA?u@?i@?o@@m@?wA@mA@o@?A?s@@w@?_B@kBB_A?q@@_@?eA@i@?]?m@@[?a@?s@@aA@aAAeABS?y@@i@Ag@AG?QAu@CKAKA_@GMCSEKCk@IKCUAIAKAKAI?a@EMAGCC?KAO?MAa@?S?{@@C?i@@cA?_@@m@?a@?eB?}@?I?WAgA@Y@aAA{ABcA?I?sC@]?kA@_@?E?C?K?yABo@?MAkCBw@@g@?a@?YA]?M?i@@]?O@q@?I?m@?gA@{BBiE?iBB{A@eE?}ADG?yABW?WA_@@a@?sA?kA?gBAk@@sA@]@y@@o@?k@?GIAAC?MEGAEAMEICSIKEGEQK[Oa@m@CC[e@IMS[?AEIEIKWWy@WsAe@aCUoAES_@qBGYKk@o@mDQ}@GUCOY{AScAI]y@qE]gBY{A]kBUgAG_@i@uCk@{CKg@ACGe@G[Gi@?CGo@AOASc@iFC_@WuCG}@CUC[AWW{CEc@Ku@I[GSISIQOYQW[c@iAmAwAiBc@i@{@{@QSm@o@gAsACE_@c@SYyAaBi@k@IKs@w@s@y@KM]a@WYq@_AKQGKAAO[O]Qs@CEEYCSC_@C_@Aa@?S?Q?y@Ay@?uA?ICcEAcD?]AaFC}DCY@Y@O?S@G?G@IB[Fc@F[Nk@JYLa@FQNc@Ja@He@Ho@B]B_@@S@Y?Y?g@?Y?aB@W@SFw@F_@?AH_@Tu@Tg@b@w@LW@?Pc@FQJUFUHWBMFYBS@E@G@Q?IBS?Q@M?OAq@?i@?]AoAAwB?AAY?KAEA]?CAICOE[Kc@Ma@CGGOGQEGIOEISYUYCCYYa@g@QS?AOQIMMYA?Wk@I[IYIc@?CEWCUCQCe@KyAI{@CQEQEOKYUs@Ue@}AiDUi@KW_@y@QLSBY@c@?u@@m@@eCB}DDsCAK?U?}B@_A@yA@wEBeBBU?e@AW?cDBI?K?k@?U@?o@?WAO?qAA_@?UY@oA?]?A?A?G?G?SAEAWAO?Y?c@?c@@gA@a@?kB@c@@aB@m@@}@?kB?c@??RiA?eBDcB?kA@sA@A??@gA?gFDkHBQ?i@Sw@CSKISGOB_B?yA?i@BeCX?V?\\A^?\\?@?b@?BXQ^?f@?j@?d@W?"
+                            },
+                            "start_location": {
+                                "lat": 29.70526,
+                                "lng": -95.492881
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.783077,
+                                        "lng": -95.455467
+                                    },
+                                    "name": "Northwest Transit Center - South Platform"
+                                },
+                                "arrival_time": {
+                                    "text": "9:11pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642043460
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.70526,
+                                        "lng": -95.492881
+                                    },
+                                    "name": "Hillcroft Ave @ Bellaire Blvd"
+                                },
+                                "departure_time": {
+                                    "text": "8:40pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041600
+                                },
+                                "headsign": "Northwest TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Hillcroft",
+                                    "short_name": "47",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n047-Hillcroft.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 38,
+                                "trip_short_name": "HILLCROFT"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 263
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 192
+                            },
+                            "end_location": {
+                                "lat": 29.7837801,
+                                "lng": -95.4554653
+                            },
+                            "html_instructions": "Walk to Northwest Transit Center - North Platform",
+                            "polyline": {
+                                "points": "_}wtDtqreQDUBODIK@]MMMECOKICKAK@E?U?E?_@@m@?AxAAX?f@"
+                            },
+                            "start_location": {
+                                "lat": 29.7827161,
+                                "lng": -95.4551537
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "121 ft",
+                                        "value": 37
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 26
+                                    },
+                                    "end_location": {
+                                        "lat": 29.78264219999999,
+                                        "lng": -95.4549134
+                                    },
+                                    "html_instructions": "Head <b>east</b>",
+                                    "polyline": {
+                                        "points": "_}wtDtqreQDUBODI"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7827161,
+                                        "lng": -95.4551537
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "482 ft",
+                                        "value": 147
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 109
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7837613,
+                                        "lng": -95.45468609999999
+                                    },
+                                    "html_instructions": "Sharp <b>left</b> toward <b>Old Katy Rd</b>",
+                                    "maneuver": "turn-sharp-left",
+                                    "polyline": {
+                                        "points": "o|wtDdpreQK@]MMMECOKICKAK@E?U?E?_@@m@?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.78264219999999,
+                                        "lng": -95.4549134
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "259 ft",
+                                        "value": 79
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 57
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7837801,
+                                        "lng": -95.4554653
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Old Katy Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ocxtDxnreQAxAAX?f@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7837613,
+                                        "lng": -95.45468609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.7 mi",
+                                "value": 2678
+                            },
+                            "duration": {
+                                "text": "6 mins",
+                                "value": 385
+                            },
+                            "end_location": {
+                                "lat": 29.801027,
+                                "lng": -95.45922999999999
+                            },
+                            "html_instructions": "Bus towards Greenspoint TC",
+                            "polyline": {
+                                "points": "w~wtDvwreQRwAF@D?DABA@CDIDSB[@g@BUBM@AN]FGJY@K?MCUCKCCA?OGQAGAE?E@GDQJOPMD[BY@W?aAAY@c@?AVAzAAb@?f@?L?ZAn@?`B?R?f@sBNO@Q@Y?W?K@wA@y@@K?u@?wA@U?O?}@@I?Y?_@?_@@oA@oD@eABM?A?a@?c@?qA@W?w@?cA@s@?c@@_@?uA@a@?OAY?q@@c@?_@?[@cA@a@?U?G?C?E?]@S?S@]@c@?}@@M?w@@]?mA@_B@W?E?e@Aa@EQEWG[OUM[QIG_@Ui@i@e@_@OQQQOMCCc@a@MR{A|BU\\W`@sBtCg@z@a@L{@vA]b@Sd@w@lAYh@OQ"
+                            },
+                            "start_location": {
+                                "lat": 29.7830001,
+                                "lng": -95.4561157
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.801027,
+                                        "lng": -95.45922999999999
+                                    },
+                                    "name": "Hempstead Rd @ W 18th St"
+                                },
+                                "arrival_time": {
+                                    "text": "9:36pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044985
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.7830001,
+                                        "lng": -95.4561157
+                                    },
+                                    "name": "Northwest Transit Center - North Platform"
+                                },
+                                "departure_time": {
+                                    "text": "9:30pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044600
+                                },
+                                "headsign": "Greenspoint TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Antoine / Washington",
+                                    "short_name": "85",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n085-Antoine-Washington.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 8,
+                                "trip_short_name": "ANTOINWAS"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 mi",
+                                "value": 738
+                            },
+                            "duration": {
+                                "text": "10 mins",
+                                "value": 587
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "mo{tDdkseQKPKKKAK?I@IB?Q?aA?M?QAO?OM?M@M?mED@[Ae@?g@ASDKP]d@}@Xq@B]QOIIOMEKKAQUGGEIAE?C?A@C@EBEV_@KMNWHMJSRa@Ts@R}@Jy@Hy@?G@Q@a@"
+                            },
+                            "start_location": {
+                                "lat": 29.8010254,
+                                "lng": -95.4592253
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "49 ft",
+                                        "value": 15
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 11
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8011512,
+                                        "lng": -95.4592626
+                                    },
+                                    "html_instructions": "Head <b>northwest</b>",
+                                    "polyline": {
+                                        "points": "mo{tDdkseQKPKK"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8010254,
+                                        "lng": -95.4592253
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "102 ft",
+                                        "value": 31
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 23
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8013705,
+                                        "lng": -95.4592806
+                                    },
+                                    "html_instructions": "Turn <b>right</b> toward <b>W 18th St</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ep{tDjkseQKAK?I@IB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8011512,
+                                        "lng": -95.4592626
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "240 ft",
+                                        "value": 73
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 61
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014508,
+                                        "lng": -95.4585436
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>W 18th St</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "qq{tDnkseQ?Q?aA?M?QAO?OM?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8013705,
+                                        "lng": -95.4592806
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "440 ft",
+                                        "value": 134
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 127
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80261729999999,
+                                        "lng": -95.45858140000001
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Mangum Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ar{tDzfseQM@M?mED"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014508,
+                                        "lng": -95.4585436
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 168
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 133
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8021725,
+                                        "lng": -95.45703209999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ky{tDbgseQ@[Ae@?g@ASDKP]d@}@Xq@B]"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80261729999999,
+                                        "lng": -95.45858140000001
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "348 ft",
+                                        "value": 106
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 80
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8024852,
+                                        "lng": -95.4562641
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Partial restricted usage road</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qv{tDl}reQQOIIOMEKKAQUGGEIAE?C?A@C@EBEV_@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8021725,
+                                        "lng": -95.45703209999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 8
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8025494,
+                                        "lng": -95.456192
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qx{tDrxreQKM"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8024852,
+                                        "lng": -95.4562641
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 201
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 144
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "}x{tDdxreQNWHMJSRa@Ts@R}@Jy@Hy@?G@Q@a@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8025494,
+                                        "lng": -95.456192
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "qphtDx~zeQ?wAM??_@?cA_G@EcL?mD?aCEMAuA@m@LA@G?PU?{B?cEDe@@cACyDBkBBmAAmDFiBTiAVkAb@sAp@_An@aAz@qEjFiBbCiApAgEhFs@z@y@t@oAzAeAnAgD`Em@h@i@Zi@Xo@RaCh@mAHiBF}IBcEB}OFmLDwNHkID}FDmA@qAC{AGmASyASk@E{@KkACqHDeEAaBB}C@_G@uB@cD@mGDoB?iB@{LDeEDeE?}ADaBBo@AaF@sC?qBBiB@k@?GIEAUGq@UaAg@kAeB_@q@c@qA}@uEcAoFuAmHkEoUqCgOsAaPQgC]_EUqAQg@Yk@m@{@aDwD_BeB_AcA_CwCwHuIgA_B_@y@Uy@Im@G_AAu@?kAE}IGaRAs@@c@Fu@N_AZeAp@yBRuAF}@BoBBgDNwAHa@Tu@Tg@p@oAf@kA\\uAHs@D}@AiCEcFCs@WyAa@kAi@{@uA_Bk@u@OYa@gAYyAWgDMmAKa@a@mAsBoEa@aA_@y@QLm@DyA@sDD}DDsCAa@?}DBmLHkF@w@?U@?o@Ag@AqB?UY@mB?S?aAEiDBsGD{F@?RiA?iED_DBA@mRHi@Sw@CSKISGOB_B?cCBeCX?t@AbB?BXQ^?rA?d@W?fA_ADUHYK@]MSQYOs@?e@@m@?AxAA`AzC`CRwAL@HCFMHo@D}@DOVe@Le@Cc@GOQGYCK@YPOPMDu@DwC?E~DAzD?z@cCPoABsEB_HDsIFyC@cKDaHBkCDkKFk@As@Ks@Wq@_@i@]oAiAu@u@c@a@MRqBzCkCvDg@z@a@L{@vA]b@Sd@w@lAYh@OQKPKKKAU@IB?Q?oAAa@?OM?[@mED@[AmAB_@v@{AXq@B][YUYKAQUMQ?ODKV_@KMXe@^u@Ts@^wBHaABs@"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.8026498,
+                    "lng": -95.45426839999999
+                },
+                "southwest": {
+                    "lat": 29.7039304,
+                    "lng": -95.49820609999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "9:46pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642045572
+                    },
+                    "departure_time": {
+                        "text": "8:35pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642041328
+                    },
+                    "distance": {
+                        "text": "11.9 mi",
+                        "value": 19154
+                    },
+                    "duration": {
+                        "text": "1 hour 11 mins",
+                        "value": 4244
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "6501 Bellaire Blvd, Houston, TX 77074, USA",
+                    "start_location": {
+                        "lat": 29.7039304,
+                        "lng": -95.49820609999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 335
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 272
+                            },
+                            "end_location": {
+                                "lat": 29.7061034,
+                                "lng": -95.49711839999999
+                            },
+                            "html_instructions": "Walk to Rookin St @ Bellaire Blvd",
+                            "polyline": {
+                                "points": "qphtDx~zeQ?}@?YM??_@?a@?a@?QoA@M?cD@M?W?M?[?]AUCSEIC"
+                            },
+                            "start_location": {
+                                "lat": 29.7039304,
+                                "lng": -95.49820609999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "312 ft",
+                                        "value": 95
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 73
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7040036,
+                                        "lng": -95.4971843
+                                    },
+                                    "html_instructions": "Head <b>east</b> toward <b>Rookin St</b>",
+                                    "polyline": {
+                                        "points": "qphtDx~zeQ?}@?YM??_@?a@?a@?Q"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7039304,
+                                        "lng": -95.49820609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 240
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 199
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7061034,
+                                        "lng": -95.49711839999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Rookin St</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "_qhtDjxzeQoA@M?cD@M?W?M?[?]AUCSEIC"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7040036,
+                                        "lng": -95.4971843
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.2 mi",
+                                "value": 3469
+                            },
+                            "duration": {
+                                "text": "9 mins",
+                                "value": 510
+                            },
+                            "end_location": {
+                                "lat": 29.7164106,
+                                "lng": -95.4768553
+                            },
+                            "html_instructions": "Bus towards Eastwood TC",
+                            "polyline": {
+                                "points": "c~htDzwzeQAJQEUIGCUMIG]KCAUESCYAe@?m@?_@?i@@c@?a@?m@@Y?I?{@@g@?y@@E?G?I?_A@U?e@AG?]?Y@E?G?E?GACECCCEAGA??KAuA?c@?U?m@AaC?M?g@?o@?M?U?Y?EAYAEC_@CWQmAIg@u@PeA^EBs@\\_@ROJSLIFQLIFa@\\UTmAxAs@x@]\\KLQR?@ONCD_@h@WZe@l@KNSTUXQPMNMPWXOTIJ_@b@W_@GIk@s@QYCEGKEIEIEGIOEMEGGSAAUo@EQGQSu@COI_@CMQmAEg@AOAQAMA_@?EAU?]A_ADI@AA_@?cA@i@@}@?aC?UAUAaAAy@?oC?}BAq@?k@?i@AoD?MA_D?Q?S?g@AmC?ICuB?O?{@?Y@oA?CAoBAoB?G?aBA}A?QCiB?qB?E?k@?a@A_D?{A?M?MAuA?g@?]?yAAgA?U?c@?c@AO?[?KH?"
+                            },
+                            "start_location": {
+                                "lat": 29.706098,
+                                "lng": -95.497095
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.7164106,
+                                        "lng": -95.4768553
+                                    },
+                                    "name": "Gulfton Dr @ Chimney Rock Rd"
+                                },
+                                "arrival_time": {
+                                    "text": "8:48pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042110
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.706098,
+                                        "lng": -95.497095
+                                    },
+                                    "name": "Rookin St @ Bellaire Blvd"
+                                },
+                                "departure_time": {
+                                    "text": "8:40pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041600
+                                },
+                                "headsign": "Eastwood TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gulfton / Holman",
+                                    "short_name": "9",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n009-Gulfton-Holman.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 12,
+                                "trip_short_name": "GULFTONHOL"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "351 ft",
+                                "value": 107
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 97
+                            },
+                            "end_location": {
+                                "lat": 29.7159238,
+                                "lng": -95.47631799999999
+                            },
+                            "html_instructions": "Walk to Chimney Rock Rd @ Gulfton Dr",
+                            "polyline": {
+                                "points": "s~jtDjyveQAaA?S@SrAAN?"
+                            },
+                            "start_location": {
+                                "lat": 29.7164219,
+                                "lng": -95.4768551
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "154 ft",
+                                        "value": 47
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 44
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7164222,
+                                        "lng": -95.47632530000001
+                                    },
+                                    "html_instructions": "Head <b>east</b> on <b>Gulfton St</b> toward <b>Chimney Rock Rd</b>",
+                                    "polyline": {
+                                        "points": "s~jtDjyveQAaA?S@S"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7164219,
+                                        "lng": -95.4768551
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "197 ft",
+                                        "value": 60
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 53
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7159238,
+                                        "lng": -95.47631799999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Chimney Rock Rd</b><div style=\"font-size:0.9em\">Pass by Church's Chicken (on the left in 128&nbsp;ft)</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "s~jtD`vveQrAAN?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7164222,
+                                        "lng": -95.47632530000001
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "7.2 mi",
+                                "value": 11564
+                            },
+                            "duration": {
+                                "text": "28 mins",
+                                "value": 1652
+                            },
+                            "end_location": {
+                                "lat": 29.783077,
+                                "lng": -95.455467
+                            },
+                            "html_instructions": "Bus towards Northwest TC",
+                            "polyline": {
+                                "points": "o{jtD|uveQ?HO?u@?e@@Q?uD@mA?aA?c@?m@?A?Q?{B?qA@sA@a@?kC@aA?iCDaB@}A?uB?Q?eA@m@?c@?YAO?GAG?C?KAC?A?A?QAs@Cq@Aq@CE?A?YAe@AEAS?A?SA{@@cB?_A@[@cA?mB@oA?iC@w@@M?kA@_@?q@@c@?W@yA?Y@[?Y?k@?uEBoC@O@gA?G@M?yA@o@?m@@I?U@U?{@?sA@e@?Y?oA@S?aA@oA@_@??R@t@?fA?R?Z@N?N@F?L@V?H?HArA@L?J?^?hCiA?I?[?M?}B@c@@Y?I?w@@u@?uA?qA?cA@I?uB@iA?c@?uC@e@?]?K@g@?K?{B@_A?w@?aB@_A?K?g@?K@y@?Y?_A@C?S?A?o@?O@{@?mA@{A@I?uA@c@?e@?c@@[?c@?YAeB@a@?e@@{A?Y?iA@_B@s@@o@?w@@a@?O?U?sB?w@@m@?q@?aC@E?OAm@@Q?eA@eA@c@?iAAm@@mA@S?c@@]?_A?U?kA@G?m@?Y?c@@iA?]?Y@_@?i@?kA@Q?E?M?i@?M?Q?C?Q?]@_B@iA?K?Y@I?ODq@_AKQGKAAO[O]Qs@CEEYCSC_@C_@Aa@?SO?Q?YBWDA?SB[Dk@H_@FSBc@B_@HW@mB?oA@sAB]?y@B]?oABg@@Y?m@@}@AMAG?EA]Ca@EA?EAMAQAa@?gA?eA@o@?U?U?g@@M@I?WBg@F]JSFOFUJYNWROJGBm@b@uBzAmAx@UNABMHq@b@WNSNWRSLMJe@^y@v@ED_@`@WZQRY\\m@z@QXS\\Wd@[h@m@dAKNSX_@f@[^CAA?A?C?A@A?GFIHYVMLOLMJEBUTYX[TOPQPQNMFMFOFODSD[F{@FoAFqAFgBFgADw@BSAoE?kB@}@?OAC?q@CWAI?eAAB_B@]?C?]@A@i@@k@@q@@q@DeALcBDo@FkBBeAFyD?G@_@?i@?S@mC?C?qA?Q?o@?w@?[AqA?W?]AeC?{@?S?w@Aa@AoAEaBAUQ{FIqCEgA_@wKCcACe@Ak@AQGaBAS?MAcB?YAk@?E?[AQ?Y?cB?m@?cAAkA?gA@iB?mA?mA?i@?C?G?]@wB?G?C@{A@i@?[Bg@@Y@Y@UB_@Do@De@A?De@RwB\\aCd@gCRu@Z{@j@cAr@cAtB{BPWH[Fe@kHBQ?i@Sw@CSKISGOB_B?yA?i@BeCX?V?\\A^?\\?@?b@?BXQ^?f@?j@?d@W?"
+                            },
+                            "start_location": {
+                                "lat": 29.715924,
+                                "lng": -95.47631
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.783077,
+                                        "lng": -95.455467
+                                    },
+                                    "name": "Northwest Transit Center - South Platform"
+                                },
+                                "arrival_time": {
+                                    "text": "9:24pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044240
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.715924,
+                                        "lng": -95.47631
+                                    },
+                                    "name": "Chimney Rock Rd @ Gulfton Dr"
+                                },
+                                "departure_time": {
+                                    "text": "8:56pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042588
+                                },
+                                "headsign": "Northwest TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Chimney Rock / S Post Oak",
+                                    "short_name": "49",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n049-Chimney-Rock-S-Post-Oak.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 25,
+                                "trip_short_name": "CHIMROCPOS"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 263
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 192
+                            },
+                            "end_location": {
+                                "lat": 29.7837801,
+                                "lng": -95.4554653
+                            },
+                            "html_instructions": "Walk to Northwest Transit Center - North Platform",
+                            "polyline": {
+                                "points": "_}wtDtqreQDUBODIK@]MMMECOKICKAK@E?U?E?_@@m@?AxAAX?f@"
+                            },
+                            "start_location": {
+                                "lat": 29.7827161,
+                                "lng": -95.4551537
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "121 ft",
+                                        "value": 37
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 26
+                                    },
+                                    "end_location": {
+                                        "lat": 29.78264219999999,
+                                        "lng": -95.4549134
+                                    },
+                                    "html_instructions": "Head <b>east</b>",
+                                    "polyline": {
+                                        "points": "_}wtDtqreQDUBODI"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7827161,
+                                        "lng": -95.4551537
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "482 ft",
+                                        "value": 147
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 109
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7837613,
+                                        "lng": -95.45468609999999
+                                    },
+                                    "html_instructions": "Sharp <b>left</b> toward <b>Old Katy Rd</b>",
+                                    "maneuver": "turn-sharp-left",
+                                    "polyline": {
+                                        "points": "o|wtDdpreQK@]MMMECOKICKAK@E?U?E?_@@m@?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.78264219999999,
+                                        "lng": -95.4549134
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "259 ft",
+                                        "value": 79
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 57
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7837801,
+                                        "lng": -95.4554653
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Old Katy Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ocxtDxnreQAxAAX?f@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7837613,
+                                        "lng": -95.45468609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.7 mi",
+                                "value": 2678
+                            },
+                            "duration": {
+                                "text": "6 mins",
+                                "value": 385
+                            },
+                            "end_location": {
+                                "lat": 29.801027,
+                                "lng": -95.45922999999999
+                            },
+                            "html_instructions": "Bus towards Greenspoint TC",
+                            "polyline": {
+                                "points": "w~wtDvwreQRwAF@D?DABA@CDIDSB[@g@BUBM@AN]FGJY@K?MCUCKCCA?OGQAGAE?E@GDQJOPMD[BY@W?aAAY@c@?AVAzAAb@?f@?L?ZAn@?`B?R?f@sBNO@Q@Y?W?K@wA@y@@K?u@?wA@U?O?}@@I?Y?_@?_@@oA@oD@eABM?A?a@?c@?qA@W?w@?cA@s@?c@@_@?uA@a@?OAY?q@@c@?_@?[@cA@a@?U?G?C?E?]@S?S@]@c@?}@@M?w@@]?mA@_B@W?E?e@Aa@EQEWG[OUM[QIG_@Ui@i@e@_@OQQQOMCCc@a@MR{A|BU\\W`@sBtCg@z@a@L{@vA]b@Sd@w@lAYh@OQ"
+                            },
+                            "start_location": {
+                                "lat": 29.7830001,
+                                "lng": -95.4561157
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.801027,
+                                        "lng": -95.45922999999999
+                                    },
+                                    "name": "Hempstead Rd @ W 18th St"
+                                },
+                                "arrival_time": {
+                                    "text": "9:36pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044985
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.7830001,
+                                        "lng": -95.4561157
+                                    },
+                                    "name": "Northwest Transit Center - North Platform"
+                                },
+                                "departure_time": {
+                                    "text": "9:30pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044600
+                                },
+                                "headsign": "Greenspoint TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Antoine / Washington",
+                                    "short_name": "85",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n085-Antoine-Washington.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 8,
+                                "trip_short_name": "ANTOINWAS"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 mi",
+                                "value": 738
+                            },
+                            "duration": {
+                                "text": "10 mins",
+                                "value": 587
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "mo{tDdkseQKPKKKAK?I@IB?Q?aA?M?QAO?OM?M@M?mED@[Ae@?g@ASDKP]d@}@Xq@B]QOIIOMEKKAQUGGEIAE?C?A@C@EBEV_@KMNWHMJSRa@Ts@R}@Jy@Hy@?G@Q@a@"
+                            },
+                            "start_location": {
+                                "lat": 29.8010254,
+                                "lng": -95.4592253
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "49 ft",
+                                        "value": 15
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 11
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8011512,
+                                        "lng": -95.4592626
+                                    },
+                                    "html_instructions": "Head <b>northwest</b>",
+                                    "polyline": {
+                                        "points": "mo{tDdkseQKPKK"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8010254,
+                                        "lng": -95.4592253
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "102 ft",
+                                        "value": 31
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 23
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8013705,
+                                        "lng": -95.4592806
+                                    },
+                                    "html_instructions": "Turn <b>right</b> toward <b>W 18th St</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ep{tDjkseQKAK?I@IB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8011512,
+                                        "lng": -95.4592626
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "240 ft",
+                                        "value": 73
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 61
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014508,
+                                        "lng": -95.4585436
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>W 18th St</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "qq{tDnkseQ?Q?aA?M?QAO?OM?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8013705,
+                                        "lng": -95.4592806
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "440 ft",
+                                        "value": 134
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 127
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80261729999999,
+                                        "lng": -95.45858140000001
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Mangum Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ar{tDzfseQM@M?mED"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014508,
+                                        "lng": -95.4585436
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 168
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 133
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8021725,
+                                        "lng": -95.45703209999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ky{tDbgseQ@[Ae@?g@ASDKP]d@}@Xq@B]"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80261729999999,
+                                        "lng": -95.45858140000001
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "348 ft",
+                                        "value": 106
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 80
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8024852,
+                                        "lng": -95.4562641
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Partial restricted usage road</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qv{tDl}reQQOIIOMEKKAQUGGEIAE?C?A@C@EBEV_@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8021725,
+                                        "lng": -95.45703209999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 8
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8025494,
+                                        "lng": -95.456192
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qx{tDrxreQKM"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8024852,
+                                        "lng": -95.4562641
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 201
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 144
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "}x{tDdxreQNWHMJSRa@Ts@R}@Jy@Hy@?G@Q@a@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8025494,
+                                        "lng": -95.456192
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "qphtDx~zeQ?wAM??_@?cA?QoA@qD@e@?i@?s@E]I?CAJQE]MUMg@SYGm@E}C@mC@_GDoC?KGGICGAaBAiF?sBAoA[kCIg@u@PkAb@sAp@c@XgAz@wChD{@`AkAzAaDzDY`@_@b@W_@s@}@U_@Yg@]y@e@uAe@sBWuBCa@EiAA}AFKAcBBgBCoFCyJCaOE}G@iDIuSCaMCuI?g@F?AuA@SrAANA?HO?{A@gE@aF?aF@cIBkFFsE?iD@y@CoCIsCIcMDaNFsQHoHF_JDqCB_@??R@|B?n@Bt@?~B@bE}B?{MDkODaUHgKFoI@aNHuMBuA?yF@sJF{NDmGDODq@_AS]Q]a@qAI_@Gs@EaA?SO?k@BYD{BZw@F_@HW@}D@qBBoEHgA@kACmAKg@E_F@aBBa@Bg@F]Jc@No@Z}AfA{EhDkBlA_BlA_A|@w@|@k@p@_AtAuBrD{ApBKAKHeC|Bk@f@c@`@[N_@Lo@LkCNyHXcFAiD@}AGoAAD}BBmAJuERsCJqDHkG@eDAoJAmGKiFmAu_@IuBAqBAgBA_O@oJBeDHqBLuBX}C\\aCd@gCn@qBj@cAr@cAtB{BPWPaA}HBi@Sw@CSKISGOB_B?cCBeCX?t@A|@?d@?BXQ^?rA?d@W?fA_ADUHYK@]MSQYOW?aA@m@?AxAA`AzC`CRwAL@HCFMHo@D}@DOVe@Le@Cc@GOQGYCK@YPOPMDu@DyAA}@@CrBAtBAlEoDReJFqLF}HD{DBaD?uGDoEFqDBcD?s@Ks@W{A}@qBmBSQc@a@MRqBzCkCvDg@z@a@L{@vA]b@Sd@w@lAYh@OQKPKKKAU@IB?Q?oAAa@?OM?[@mED@[AmAB_@v@{AXq@B][YUYKAQUMQAIFQV_@KMXe@^u@Ts@^wBHaABs@"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.8026484,
+                    "lng": -95.45427269999999
+                },
+                "southwest": {
+                    "lat": 29.7039304,
+                    "lng": -95.49820609999999
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "9:46pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642045572
+                    },
+                    "departure_time": {
+                        "text": "8:32pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642041139
+                    },
+                    "distance": {
+                        "text": "12.5 mi",
+                        "value": 20161
+                    },
+                    "duration": {
+                        "text": "1 hour 14 mins",
+                        "value": 4433
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "6501 Bellaire Blvd, Houston, TX 77074, USA",
+                    "start_location": {
+                        "lat": 29.7039304,
+                        "lng": -95.49820609999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 269
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 196
+                            },
+                            "end_location": {
+                                "lat": 29.7052822,
+                                "lng": -95.4974705
+                            },
+                            "html_instructions": "Walk to Bellaire Blvd @ Rookin St",
+                            "polyline": {
+                                "points": "qphtDx~zeQ?}@?YM??_@?a@?a@uA@iD??d@"
+                            },
+                            "start_location": {
+                                "lat": 29.7039304,
+                                "lng": -95.49820609999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "312 ft",
+                                        "value": 95
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 73
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7040024,
+                                        "lng": -95.4972671
+                                    },
+                                    "html_instructions": "Head <b>east</b> toward <b>Rookin St</b>",
+                                    "polyline": {
+                                        "points": "qphtDx~zeQ?}@?YM??_@?a@?a@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7039304,
+                                        "lng": -95.49820609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "495 ft",
+                                        "value": 151
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 107
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7052844,
+                                        "lng": -95.4972788
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Rookin St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "_qhtD|xzeQuA@iD?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7040024,
+                                        "lng": -95.4972671
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "75 ft",
+                                        "value": 23
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 16
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7052822,
+                                        "lng": -95.4974705
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Bellaire Blvd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "_yhtD~xzeQ?d@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7052844,
+                                        "lng": -95.4972788
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.7 mi",
+                                "value": 2786
+                            },
+                            "duration": {
+                                "text": "9 mins",
+                                "value": 535
+                            },
+                            "end_location": {
+                                "lat": 29.705711,
+                                "lng": -95.468828
+                            },
+                            "html_instructions": "Bus towards Hillcroft TC",
+                            "polyline": {
+                                "points": "yxhtDdzzeQM??m@AwEAcBA_B@aB?kAA_CCMCoABm@AqAA}C?s@Ao@AiA@U?O?}BAk@?y@A}@?SAaABYAeC?s@?s@?g@?YAY?{@AmA?c@AgAAqA?k@?]?}@?YAyE?k@Aq@?K?c@?Y?U?o@?m@?a@AgA?}@A}@@}ACkE?c@AsA?S?eA?sB?qACmB?e@?aA?W?c@Ak@?[?A?EAqA@UAk@?oC?_B?AAs@AsA?gA?U?i@?qA?q@?m@?q@?kA?Q?iAC{B?k@@IM_@OYCMAu@J?"
+                            },
+                            "start_location": {
+                                "lat": 29.705252,
+                                "lng": -95.49746999999999
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.705711,
+                                        "lng": -95.468828
+                                    },
+                                    "name": "Bellaire Transit Center"
+                                },
+                                "arrival_time": {
+                                    "text": "8:45pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041900
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.705252,
+                                        "lng": -95.49746999999999
+                                    },
+                                    "name": "Bellaire Blvd @ Rookin St"
+                                },
+                                "departure_time": {
+                                    "text": "8:36pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642041365
+                                },
+                                "headsign": "Hillcroft TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gulfton Circulator",
+                                    "short_name": "309",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/309-Gulfton-Circulator.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 9,
+                                "trip_short_name": "GULFTONTARNEF"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "8.3 mi",
+                                "value": 13427
+                            },
+                            "duration": {
+                                "text": "33 mins",
+                                "value": 1980
+                            },
+                            "end_location": {
+                                "lat": 29.783077,
+                                "lng": -95.455467
+                            },
+                            "html_instructions": "Bus towards Northwest TC",
+                            "polyline": {
+                                "points": "u{htDdgueQPA?^?ZGb@[b@@VD`A?|@?P@bA@\\@fDCv@@jA?h@@j@?dB?x@@tA@f@?~A?d@?b@?h@?\\?N?t@?b@@d@?ViA?U?mA@I?sA?M@g@?Y?mA@_@?_@?O?G?YAk@@[?Y?s@@Q?u@?[?g@?w@@kC?[@yD@mB@{@?W@qD?Q?cB?cA@kB@q@@wA@O?u@?e@@Q?uD@mA?aA?c@?m@?A?Q?{B?qA@sA@a@?kC@aA?iCDaB@}A?uB?Q?eA@m@?c@?YAO?GAG?C?KAC?A?A?QAs@Cq@Aq@CE?A?YAe@AEAS?A?SA{@@cB?_A@[@cA?mB@oA?iC@w@@M?kA@_@?q@@c@?W@yA?Y@[?Y?k@?uEBoC@O@gA?G@M?yA@o@?m@@I?U@U?{@?sA@e@?Y?oA@S?aA@oA@_@??R@t@?fA?R?Z@N?N@F?L@V?H?HArA@L?J?^?hCiA?I?[?M?}B@c@@Y?I?w@@u@?uA?qA?cA@I?uB@iA?c@?uC@e@?]?K@g@?K?{B@_A?w@?aB@_A?K?g@?K@y@?Y?_A@C?S?A?o@?O@{@?mA@{A@I?uA@c@?e@?c@@[?c@?YAeB@a@?e@@{A?Y?iA@_B@s@@o@?w@@a@?O?U?sB?w@@m@?q@?aC@E?OAm@@Q?eA@eA@c@?iAAm@@mA@S?c@@]?_A?U?kA@G?m@?Y?c@@iA?]?Y@_@?i@?kA@Q?E?M?i@?M?Q?C?Q?]@_B@iA?K?Y@I?ODq@_AKQGKAAO[O]Qs@CEEYCSC_@C_@Aa@?SO?Q?YBWDA?SB[Dk@H_@FSBc@B_@HW@mB?oA@sAB]?y@B]?oABg@@Y?m@@}@AMAG?EA]Ca@EA?EAMAQAa@?gA?eA@o@?U?U?g@@M@I?WBg@F]JSFOFUJYNWROJGBm@b@uBzAmAx@UNABMHq@b@WNSNWRSLMJe@^y@v@ED_@`@WZQRY\\m@z@QXS\\Wd@[h@m@dAKNSX_@f@[^CAA?A?C?A@A?GFIHYVMLOLMJEBUTYX[TOPQPQNMFMFOFODSD[F{@FoAFqAFgBFgADw@BSAoE?kB@}@?OAC?q@CWAI?eAAB_B@]?C?]@A@i@@k@@q@@q@DeALcBDo@FkBBeAFyD?G@_@?i@?S@mC?C?qA?Q?o@?w@?[AqA?W?]AeC?{@?S?w@Aa@AoAEaBAUQ{FIqCEgA_@wKCcACe@Ak@AQGaBAS?MAcB?YAk@?E?[AQ?Y?cB?m@?cAAkA?gA@iB?mA?mA?i@?C?G?]@wB?G?C@{A@i@?[Bg@@Y@Y@UB_@Do@De@A?De@RwB\\aCd@gCRu@Z{@j@cAr@cAtB{BPWH[Fe@kHBQ?i@Sw@CSKISGOB_B?yA?i@BeCX?V?\\A^?\\?@?b@?BXQ^?f@?j@?d@W?"
+                            },
+                            "start_location": {
+                                "lat": 29.705711,
+                                "lng": -95.468828
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.783077,
+                                        "lng": -95.455467
+                                    },
+                                    "name": "Northwest Transit Center - South Platform"
+                                },
+                                "arrival_time": {
+                                    "text": "9:24pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044240
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.705711,
+                                        "lng": -95.468828
+                                    },
+                                    "name": "Bellaire Transit Center"
+                                },
+                                "departure_time": {
+                                    "text": "8:51pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642042260
+                                },
+                                "headsign": "Northwest TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Chimney Rock / S Post Oak",
+                                    "short_name": "49",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n049-Chimney-Rock-S-Post-Oak.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 32,
+                                "trip_short_name": "CHIMROCPOS"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 263
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 192
+                            },
+                            "end_location": {
+                                "lat": 29.7837801,
+                                "lng": -95.4554653
+                            },
+                            "html_instructions": "Walk to Northwest Transit Center - North Platform",
+                            "polyline": {
+                                "points": "_}wtDtqreQDUBODIK@]MMMECOKICKAK@E?U?E?_@@m@?AxAAX?f@"
+                            },
+                            "start_location": {
+                                "lat": 29.7827161,
+                                "lng": -95.4551537
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "121 ft",
+                                        "value": 37
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 26
+                                    },
+                                    "end_location": {
+                                        "lat": 29.78264219999999,
+                                        "lng": -95.4549134
+                                    },
+                                    "html_instructions": "Head <b>east</b>",
+                                    "polyline": {
+                                        "points": "_}wtDtqreQDUBODI"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7827161,
+                                        "lng": -95.4551537
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "482 ft",
+                                        "value": 147
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 109
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7837613,
+                                        "lng": -95.45468609999999
+                                    },
+                                    "html_instructions": "Sharp <b>left</b> toward <b>Old Katy Rd</b>",
+                                    "maneuver": "turn-sharp-left",
+                                    "polyline": {
+                                        "points": "o|wtDdpreQK@]MMMECOKICKAK@E?U?E?_@@m@?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.78264219999999,
+                                        "lng": -95.4549134
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "259 ft",
+                                        "value": 79
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 57
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7837801,
+                                        "lng": -95.4554653
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Old Katy Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ocxtDxnreQAxAAX?f@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7837613,
+                                        "lng": -95.45468609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.7 mi",
+                                "value": 2678
+                            },
+                            "duration": {
+                                "text": "6 mins",
+                                "value": 385
+                            },
+                            "end_location": {
+                                "lat": 29.801027,
+                                "lng": -95.45922999999999
+                            },
+                            "html_instructions": "Bus towards Greenspoint TC",
+                            "polyline": {
+                                "points": "w~wtDvwreQRwAF@D?DABA@CDIDSB[@g@BUBM@AN]FGJY@K?MCUCKCCA?OGQAGAE?E@GDQJOPMD[BY@W?aAAY@c@?AVAzAAb@?f@?L?ZAn@?`B?R?f@sBNO@Q@Y?W?K@wA@y@@K?u@?wA@U?O?}@@I?Y?_@?_@@oA@oD@eABM?A?a@?c@?qA@W?w@?cA@s@?c@@_@?uA@a@?OAY?q@@c@?_@?[@cA@a@?U?G?C?E?]@S?S@]@c@?}@@M?w@@]?mA@_B@W?E?e@Aa@EQEWG[OUM[QIG_@Ui@i@e@_@OQQQOMCCc@a@MR{A|BU\\W`@sBtCg@z@a@L{@vA]b@Sd@w@lAYh@OQ"
+                            },
+                            "start_location": {
+                                "lat": 29.7830001,
+                                "lng": -95.4561157
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.801027,
+                                        "lng": -95.45922999999999
+                                    },
+                                    "name": "Hempstead Rd @ W 18th St"
+                                },
+                                "arrival_time": {
+                                    "text": "9:36pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044985
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.7830001,
+                                        "lng": -95.4561157
+                                    },
+                                    "name": "Northwest Transit Center - North Platform"
+                                },
+                                "departure_time": {
+                                    "text": "9:30pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642044600
+                                },
+                                "headsign": "Greenspoint TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Antoine / Washington",
+                                    "short_name": "85",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n085-Antoine-Washington.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 8,
+                                "trip_short_name": "ANTOINWAS"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 mi",
+                                "value": 738
+                            },
+                            "duration": {
+                                "text": "10 mins",
+                                "value": 587
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "mo{tDdkseQKPKKKAK?I@IB?Q?aA?M?QAO?OM?M@M?mED@[Ae@?g@ASDKP]d@}@Xq@B]QOIIOMEKKAQUGGEIAE?C?A@C@EBEV_@KMNWHMJSRa@Ts@R}@Jy@Hy@?G@Q@a@"
+                            },
+                            "start_location": {
+                                "lat": 29.8010254,
+                                "lng": -95.4592253
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "49 ft",
+                                        "value": 15
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 11
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8011512,
+                                        "lng": -95.4592626
+                                    },
+                                    "html_instructions": "Head <b>northwest</b>",
+                                    "polyline": {
+                                        "points": "mo{tDdkseQKPKK"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8010254,
+                                        "lng": -95.4592253
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "102 ft",
+                                        "value": 31
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 23
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8013705,
+                                        "lng": -95.4592806
+                                    },
+                                    "html_instructions": "Turn <b>right</b> toward <b>W 18th St</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ep{tDjkseQKAK?I@IB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8011512,
+                                        "lng": -95.4592626
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "240 ft",
+                                        "value": 73
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 61
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014508,
+                                        "lng": -95.4585436
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>W 18th St</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "qq{tDnkseQ?Q?aA?M?QAO?OM?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8013705,
+                                        "lng": -95.4592806
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "440 ft",
+                                        "value": 134
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 127
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80261729999999,
+                                        "lng": -95.45858140000001
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Mangum Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ar{tDzfseQM@M?mED"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014508,
+                                        "lng": -95.4585436
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 168
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 133
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8021725,
+                                        "lng": -95.45703209999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ky{tDbgseQ@[Ae@?g@ASDKP]d@}@Xq@B]"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80261729999999,
+                                        "lng": -95.45858140000001
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "348 ft",
+                                        "value": 106
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 80
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8024852,
+                                        "lng": -95.4562641
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Partial restricted usage road</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qv{tDl}reQQOIIOMEKKAQUGGEIAE?C?A@C@EBEV_@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8021725,
+                                        "lng": -95.45703209999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "33 ft",
+                                        "value": 10
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 8
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8025494,
+                                        "lng": -95.456192
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qx{tDrxreQKM"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8024852,
+                                        "lng": -95.4562641
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 201
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 144
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "}x{tDdxreQNWHMJSRa@Ts@R}@Jy@Hy@?G@Q@a@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8025494,
+                                        "lng": -95.456192
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "qphtDx~zeQ?wAM??_@?cA_G@?d@D?M??m@C{H?aEAkECMCoABm@AqAAqECyB@e@CaHAuA@_D?iDGkLEq[Ke]EmO?wLCcG@IM_@Sg@Au@J?PA?^G~@[b@@VD~B@tABdECv@BfGBvG@`H?V_B?yDBoD@qAAaHBmWHuNFqMBsHBmD@kEDgI@sB@}@Ac@ASAqFO[AsF@yPHwHDaLFwDBiID_EBoB@@hA@fCB|@?tB?j@?hCiA?e@?kC@_CBoOBuMDqSHiJDgNDmWHaF@cDB_JB{OFe@@YDgA_B_@y@Uy@Im@G_AAu@a@?gAL{BZcALeC@{FHoDDkB?UAgAKgAEsE@uAB_AJq@Re@Rq@b@{DnCiFnDa@X_BvAoAvAgAxAe@v@mBdDs@`A[^CAC?C?UReA~@qAhAa@b@_@VaAZwANaDNoDLw@BSA{H@mAAwAEeAAB_B@a@DuBBcBRiDL{CJ_G@eB@yJEwL[cMs@uTOeEC_DCoI?oM@aDFiEXeFRwB\\aCd@gCRu@Z{@j@cAr@cAtB{BPWH[Fe@kHBQ?i@Sw@CSKQc@ByDBoDp@?|AAb@?BXQ^?f@?pAW?fA_AHe@DIK@]MMMUOUEQ@iB@CrB?f@zC`CRwAF@JADEJ]DcAFc@d@aA@YGa@ECOGQAMAMFa@\\MD[Bq@@{A?c@?AVC~BA`C?tB?f@sBNa@Bq@?iDDuHBeJHuA?sLF}B?cDBcA?kABqKH]?gAGi@Mq@]e@Y_@Ui@i@u@q@a@_@g@e@iBpCm@~@sBtCg@z@a@L{@vA]b@Sd@qAvBOQKPKKWASD?sAA_AwFFA}BVi@~@oBB]QOYWEKKAY]GU^o@KMNWTa@Ra@Ts@R}@TsB@Y@a@"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 29.803205,
+                    "lng": -95.4519566
+                },
+                "southwest": {
+                    "lat": 29.7038884,
+                    "lng": -95.5448222
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "8:34pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642041260
+                    },
+                    "departure_time": {
+                        "text": "7:05pm",
+                        "time_zone": "America/Chicago",
+                        "value": 1642035910
+                    },
+                    "distance": {
+                        "text": "15.1 mi",
+                        "value": 24311
+                    },
+                    "duration": {
+                        "text": "1 hour 29 mins",
+                        "value": 5350
+                    },
+                    "end_address": "4400 W 18th St, Houston, TX 77092, USA",
+                    "end_location": {
+                        "lat": 29.8019199,
+                        "lng": -95.45428179999999
+                    },
+                    "start_address": "6501 Bellaire Blvd, Houston, TX 77074, USA",
+                    "start_location": {
+                        "lat": 29.7039304,
+                        "lng": -95.49820609999999
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 367
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 294
+                            },
+                            "end_location": {
+                                "lat": 29.7055572,
+                                "lng": -95.4962077
+                            },
+                            "html_instructions": "Walk to Bellaire Blvd @ Rookin St",
+                            "polyline": {
+                                "points": "qphtDx~zeQ?}@?YM??_@?a@?a@uA@iD?O?U?O??O?i@?m@AgA?e@"
+                            },
+                            "start_location": {
+                                "lat": 29.7039304,
+                                "lng": -95.49820609999999
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "312 ft",
+                                        "value": 95
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 73
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7040024,
+                                        "lng": -95.4972671
+                                    },
+                                    "html_instructions": "Head <b>east</b> toward <b>Rookin St</b>",
+                                    "polyline": {
+                                        "points": "qphtDx~zeQ?}@?YM??_@?a@?a@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7039304,
+                                        "lng": -95.49820609999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 172
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 132
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7055474,
+                                        "lng": -95.49719639999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Rookin St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "_qhtD|xzeQuA@iD?O?U?O??O"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7040024,
+                                        "lng": -95.4972671
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "328 ft",
+                                        "value": 100
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 89
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7055572,
+                                        "lng": -95.4962077
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Bellaire Blvd</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "uzhtDnxzeQ?i@?m@AgA?e@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7055474,
+                                        "lng": -95.49719639999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.4 mi",
+                                "value": 3908
+                            },
+                            "duration": {
+                                "text": "11 mins",
+                                "value": 663
+                            },
+                            "end_location": {
+                                "lat": 29.705185,
+                                "lng": -95.535994
+                            },
+                            "html_instructions": "Bus towards Mission Bend TC",
+                            "polyline": {
+                                "points": "}zhtDhrzeQL??d@?fA@l@?p@@|A?J?\\@fC?|C?n@@V?T?h@@jA?D?L?~B@vA?h@?f@@b@@f@Dv@?JDh@Bd@Fn@J~@BVDXHl@BPHf@DTFRFXLj@Jf@Lb@DNJ\\L`@J\\@DBDBLHZFV@FDPDPJ`@@JBHDTH\\Ht@Fb@Db@BZDf@BX?DBP@T@VBj@Bp@?D@Z@b@?bAAv@?LExBGv@Cb@ANKbAGb@K~@CLG`@G`@Kh@Od@?@K^KX?@Oj@Kd@I\\GX_@rBSdACLGd@OfBE`@AXGr@AZEp@Ad@?ZC`A?^?~@@\\?b@?T?dB@d@?fB@rB?TB`B?T@h@@hAAX?jA?lA?N?r@?H?b@?r@@nD@z@?T?^?P@^?R?\\@n@AZ?hA@p@?~A?D?b@?B@bC?l@BlD@nJ?V?rABn@@\\?nA@pC@`B?tC?`@?d@?X?dA?j@?R?n@?`A@lA?fAQ?"
+                            },
+                            "start_location": {
+                                "lat": 29.7055945,
+                                "lng": -95.49620809999999
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.705185,
+                                        "lng": -95.535994
+                                    },
+                                    "name": "Bellaire Blvd @ Redding Rd"
+                                },
+                                "arrival_time": {
+                                    "text": "7:21pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642036867
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.7055945,
+                                        "lng": -95.49620809999999
+                                    },
+                                    "name": "Bellaire Blvd @ Rookin St"
+                                },
+                                "departure_time": {
+                                    "text": "7:10pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642036204
+                                },
+                                "headsign": "Mission Bend TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Bellaire",
+                                    "short_name": "2",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n002-Bellaire.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 14,
+                                "trip_short_name": "BELLAIRE"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 mi",
+                                "value": 240
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 198
+                            },
+                            "end_location": {
+                                "lat": 29.7046225,
+                                "lng": -95.53788870000001
+                            },
+                            "html_instructions": "Walk to S Gessner Rd @ Bellaire Blvd",
+                            "polyline": {
+                                "points": "cxhtD|jbfQ?V?P@hD?vB@n@L@TAL?p@?"
+                            },
+                            "start_location": {
+                                "lat": 29.7051398,
+                                "lng": -95.5359938
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 188
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 140
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7050523,
+                                        "lng": -95.5378955
+                                    },
+                                    "html_instructions": "Head <b>west</b> on <b>Bellaire Blvd</b> toward <b>Redding Rd</b>",
+                                    "polyline": {
+                                        "points": "cxhtD|jbfQ?V?P@hD?vB@n@L@"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7051398,
+                                        "lng": -95.5359938
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "171 ft",
+                                        "value": 52
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 58
+                                    },
+                                    "end_location": {
+                                        "lat": 29.7046225,
+                                        "lng": -95.53788870000001
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>S Gessner Rd</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qwhtDzvbfQTAL?p@?"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.7050523,
+                                        "lng": -95.5378955
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "5.6 mi",
+                                "value": 8948
+                            },
+                            "duration": {
+                                "text": "25 mins",
+                                "value": 1500
+                            },
+                            "end_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "html_instructions": "Bus towards Hempstead Hwy",
+                            "polyline": {
+                                "points": "{thtDrvbfQ?Lw@?e@@MA_@@W?W@U@A?e@By@HC?UDGBwAVcAXqA`@iAT]FOBWDQB[DE?W@Y@M?Y@aCBy@?c@@g@@sA?G?G?_@?o@?g@?U?sB@o@@k@?a@?{@@a@?{A@m@?_C@i@?gC@M?eA@w@?[?uBBkA@A?S?cA@QAyA@kA?}A@M@wAB[?U?O?yA@iB@yA@Y?S?[@eA@Y?s@?g@?W?gDA{BAyAAwA@m@?S@mC@sCBc@BUA_A@a@?_@@}C?kB?{@@]?wCBoA?kA@uA?wABs@BS?u@?iB@oBBY?SAcBBa@?Y@eAAMA_@Ck@Eq@O]IYE_@G[EI?UCWA[CKAE?WAQAa@Cw@?K?_@CUCMCUEWEc@IOGi@Qi@O_@KA?e@Gm@G_ACe@?A?aA@U@G?_A?E?a@@wA?eD@_@?wA@sB@c@?O?I?oB@M?aEBkEBsB?[?eA@_@CqEBQAoDFWBe@DYDa@Hk@Pg@Tg@XA?g@\\C@{@l@WPcAr@]TIBWRmAx@e@`@CB_@^ABMLUXY\\QTSXYf@S\\GHS^eAnBEHWj@MNKLMP?@U\\[d@Wb@a@f@i@h@IH[VaAp@q@`@E@k@XQFKBa@NQFODOD[Fq@Nw@DkAF{@@cBE[EO?GAQ?K?Y?gA@{B?kABm@Aq@?qBBaB@mACeAGc@Gk@IiAWm@MaAOwAMgAGs@?}@?qA?Q?iD?sCBS?oF?oC?U?_B?iA@oCBU?gD?yABkA@yA?u@@W?mA?oA?sC@W?qD?A?c@?mADi@Ac@@A?M?m@Ac@?c@?OA]?c@Ac@?]?k@?y@?[?G?c@?e@AE?sAEu@EA?aAKkASc@GOC{@MICWCWCWCWC_@C@S"
+                            },
+                            "start_location": {
+                                "lat": 29.704623,
+                                "lng": -95.537855
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:02pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642039320
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.704623,
+                                        "lng": -95.537855
+                                    },
+                                    "name": "S Gessner Rd @ Bellaire Blvd"
+                                },
+                                "departure_time": {
+                                    "text": "7:37pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642037820
+                                },
+                                "headsign": "Hempstead Hwy",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Gessner",
+                                    "short_name": "46",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n046-Gessner.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 29,
+                                "trip_short_name": "GESSNER"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "6.5 mi",
+                                "value": 10474
+                            },
+                            "duration": {
+                                "text": "24 mins",
+                                "value": 1455
+                            },
+                            "end_location": {
+                                "lat": 29.80140099999999,
+                                "lng": -95.45297
+                            },
+                            "html_instructions": "Bus towards Kashmere TC",
+                            "polyline": {
+                                "points": "i|wtDv{cfQARSAk@ASAOAg@?[AA?}@@_@Aw@?u@AC?i@?aA?QAaADA?g@D{@Da@DO@Y@S@A?w@BM@Y@S@U@SBYBI@OBA?QBUDE@k@L_@LIBSF]FYFC?c@DSB]Ba@@s@@c@?gABw@?W?[@_@?U?S?E?o@@m@AeB@S?y@@gA@c@?c@@k@?m@@oA@E?W?s@@BeB?g@?oB@Q?qA?Y?]?eB?q@@mA@}BA]?_A?a@LoA@KDWBY@Y?wAAy@?K?o@Ac@?Q?sA?_@Ec@?AO}@ACEWY}AUmA?AESCQUiA[kBMq@EUCK[gBQgAGc@EYIe@G[G]Qw@Ia@UqAQ}@]sBSeASeACSMm@AGG[Ki@G_@Ki@G_@A?Ko@o@mDMo@_@wBMs@Ie@Qq@YsAACGU_@yAAEGUM_@Om@EUOm@EQMe@Oo@EQCOIYEQK_@COEMCMGUAICMGSEQMk@Sy@QuACOEc@Ge@C]CKE_@Eg@COE_@O{AQ}Aa@uDCUc@eEE]UqBKkAGc@MqAOwA_@sDGm@@I?K?IEoAMw@Gy@Ee@CUE]Ie@GUGUGSKUKWEKKU_@o@q@mA_@k@QWKQe@e@_@YCAWQMI[SCCQKUMGGGGWWWa@AASc@Sk@ACEQGUE]EY?EAM?GCs@?YIsBGaBAi@Cg@?_@?C?[B}B?[?mB@a@@gB@y@?WB}F?qA@qB?K?M?oA?YAq@?S?wC?aAAsF@sA?WA}D?c@?MAi@?e@COAW?i@Ay@?Y@k@?S@SES?G@]@I?[@_@?I?[@a@?]@E?m@@e@@y@?O?Y@o@@sB@g@?I@_B?s@@W?a@?Y@aA?S@i@?e@@}@@eA?g@@s@?s@?M?K?Y?U?U?GAK?GAI?E@Q?c@?K?E?A?C?A?A@C?E?Y@U?o@@uA@k@?a@?_@@[?Q?c@?O?]?e@@S?[?U?SAa@@S?y@?GAo@?_@?Q?S@_@?[@_A?[?oAAk@?O?Q?Q?[?c@?S?I@y@?G?Q?i@AuA?_A?aA?I?gAAw@?W?s@?U?U?m@?i@?o@Ag@?I?{A?O?q@?e@?eB?{A?UA]?kHAeI?EAY?kG?IAiC?s@?_BAoC?g@?qC?_CAoA?eA?M?s@AuC?Q?c@?e@?G?Q?I?oA?q@?i@?O?a@?c@?OAK?G?IAICGCECCEC?AKIEEOO`@o@FKt@gAb@q@HM`A{Ah@w@dA_Bh@y@@]EsB?]@g@?YAU?a@AyE?I?IAgA?uAAuC?o@@W?uC?W?]AuAAi@?iA?_B?AH?"
+                            },
+                            "start_location": {
+                                "lat": 29.782613,
+                                "lng": -95.543797
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 29.80140099999999,
+                                        "lng": -95.45297
+                                    },
+                                    "name": "W 18th St @ Northwest Fwy"
+                                },
+                                "arrival_time": {
+                                    "text": "8:29pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642040955
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 29.782613,
+                                        "lng": -95.543797
+                                    },
+                                    "name": "Gessner Rd @ Katy Fwy"
+                                },
+                                "departure_time": {
+                                    "text": "8:05pm",
+                                    "time_zone": "America/Chicago",
+                                    "value": 1642039500
+                                },
+                                "headsign": "Kashmere TC",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metropolitan Transit Authority of Harris County",
+                                            "phone": "1 (713) 635-4000",
+                                            "url": "http://www.ridemetro.org/"
+                                        }
+                                    ],
+                                    "color": "#004080",
+                                    "name": "Long Point / Cavalcade",
+                                    "short_name": "26",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.ridemetro.org/MetroPDFs/Schedules/BusSchedules/n026-Long-Point-Cavalcade.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 42,
+                                "trip_short_name": "LONGPOINT"
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 374
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 304
+                            },
+                            "end_location": {
+                                "lat": 29.8019199,
+                                "lng": -95.45428179999999
+                            },
+                            "html_instructions": "Walk to 4400 W 18th St, Houston, TX 77092, USA",
+                            "polyline": {
+                                "points": "{q{tD`dreQ@]?g@@mACu@MDSFMD?j@?h@BnAAV@|@@hBYDe@F@D@R@f@?D"
+                            },
+                            "start_location": {
+                                "lat": 29.8014155,
+                                "lng": -95.4529697
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "328 ft",
+                                        "value": 100
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 78
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "html_instructions": "Head <b>east</b> on <b>W 18th St</b>/<wbr/><b>NW Mall</b> toward <b>W Loop S Fwy</b><div style=\"font-size:0.9em\">Pass by Burger King (on the right in 279&nbsp;ft)</div>",
+                                    "polyline": {
+                                        "points": "{q{tD`dreQ@]?g@@mACu@MD"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014155,
+                                        "lng": -95.4529697
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 198
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 165
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "html_instructions": "Cross the road",
+                                    "polyline": {
+                                        "points": "ir{tD|}qeQSFMD?j@?h@BnAAV@|@@hB"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8014885,
+                                        "lng": -95.45198769999999
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "131 ft",
+                                        "value": 40
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 34
+                                    },
+                                    "end_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "es{tDpireQYDe@F"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.8016283,
+                                        "lng": -95.4538499
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "118 ft",
+                                        "value": 36
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 27
+                                    },
+                                    "end_location": {
+                                        "lat": 29.8019199,
+                                        "lng": -95.45428179999999
+                                    },
+                                    "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "eu{tD~ireQ@D@R@f@?D"
+                                    },
+                                    "start_location": {
+                                        "lat": 29.80194599999999,
+                                        "lng": -95.4539156
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "qphtDx~zeQ?wAM??_@?cA_G@e@?O??O?wAAmBE?L??lBBhEDvO@jFB|CNrCVfC\\`Cb@nBfA~Dr@tCThAZxCLxAJjCBhCAdAMpDEr@SfBOlAObAg@pB[fAUbAg@lCWrAWlCQjCKtDBjLFzM?zCBbI@fB?|BBlKDbRDpFB|Q@rE?fAQ?H??V@zD@fDbB??E?L}A@}A@wBNyB`@uCz@gB\\uAReAByFFyG@yMFoQHeDBuG@eMJoCBmC?uMCcJF{CBeJBqIDuFF}MHsACkAIiCg@aCQi@CyACoAKm@Ks@QuBm@sAOeBCaBBqQF}THaB@qF?aED}@H{@NsAf@uAx@uDhCa@VmAx@e@`@c@b@OPuAfBiAnBkAxBWj@MNY^U^s@hAkApAe@`@aAp@q@`@q@Z]JsAb@mAVcCL_DCk@E_AA}HBcDBoDAiBOuBa@oB]_DUuE?aQBoI@gLF}PDsD?qBD}A?iGEiC?cDGw@EmC_@yB]_BO_@C@SARSA_ACw@A{BAqBAkB?sABgCP_ADsBHmAJy@L{A`@oAVw@H_ADwEDiB@sJDcIFDoG?oF@{G?aBN{AHq@@qBCyC?eBEcAW{AyB{Lw@qEM}@QaAy@iEwA}H{@yEkC_Ou@_Dw@uCsA{Fs@wC_@_BSy@QuAIs@UoB_@sDkCoVeAkK@UEyA_@mDOcAOk@e@mAk@eAqAyB]i@e@e@_@Y[Si@]s@e@_@_@Yc@g@oAGUMs@E_@EcBWgHFqMDaL@{EAySCyGEwBAsA@_A@SES@e@BoABaBHcKDgIFqJAmBDaHD}MAiBBoCAkGAuREkf@Iwk@?yG?eBCg@QUa@a@~HwLh@y@@]EqC?yBCuHAkF@gAAaHAuED?@eAAcCa@LMD?j@BxB?tA@hBYDe@F@DBz@?D"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}

@@ -145,7 +145,7 @@ for nrow in range(0, len(df)):
 # bring together all the concatenated results
 total = delayed(pd.concat)(results, axis=1)
 
-# compute everything
+# compute everything (THIS IS WHEN ALL THE ACTUAL CODE RUNS)
 final = total.compute()
 
 # print all the final codes
@@ -157,5 +157,12 @@ end = time.perf_counter()
 # CLOSING ACTIONS #
 ###################
 
-# Let's create a readme text in the folder that
+# Let's create a readme text in the folder that explains when all these files were written
+readme_str = json_loc + "README_" + \
+    str(datetime.datetime.now().date()) + ".txt"
+
+with open(readme_str, 'w') as f:
+
+    f.write("The date in the name of this file is when all these file were writtens")
+
 print(f"Everything happened in {end - start:0.4f} seconds!")
