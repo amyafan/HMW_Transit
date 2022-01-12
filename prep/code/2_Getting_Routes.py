@@ -5,6 +5,8 @@ This file uses the Google Maps API to find all the routes and route information 
 
 API documentation: https://developers.google.com/maps/documentation/directions/get-directions
 
+I use Dask Delayed to run the API calls asychronously. This file takes less than 30 seconds to compute
+
 inputs:
 
     - cleaned_data/school_demo_geo.csv
@@ -95,8 +97,15 @@ def get_write_routes(row):
         json.dump(routes_2.json(), outfile, sort_keys=True, indent=4,
                   ensure_ascii=False)
 
+    ##########
+    # OUTPUT #
+    ##########
+
+    # we need the function to return something so that we can compute it
+
     end = pd.Series(
         [school_num, school_name, routes_1.status_code, routes_2.status_code])
+
     return(end)
 
 ##################################

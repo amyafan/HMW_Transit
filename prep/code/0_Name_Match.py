@@ -9,11 +9,20 @@ Notes:
 		* "ENERGIZED FOR STEM ACADEMY SOUTHEAST MIDDLE" was not included in the HISD FOIA request
 
 Inputs (from the raw_data folder): 
-- start_end_times.xlsx
-- school_geography.csv
 
-Outputs (also in the raw_data folder): 
-- name_match_raw.csv
+    - start_end_times.xlsx
+
+        Houston ISD school end times 
+
+    - school_geography.csv
+
+        TEA geographic information 
+
+Outputs (in the int_data folder): 
+
+    - name_match_raw.csv
+
+        preliminary matching of the names
 
 """
 
@@ -26,17 +35,18 @@ from fuzzywuzzy import process
 
 # working directory
 
-direc = "//Users//afan//Desktop//Misc//HMW_Transit//"
+raw_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//raw_data//"
+int_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//"
 
 # First, we'll read in the excel sheet with schools end times -- the information on all the schools is on the second sheet
-endtimes_str = direc + "prep//raw_data//" + "start_end_times.xlsx"
+endtimes_str = raw_data + "start_end_times.xlsx"
 
 # we only want the column with the names
 endtimes = pd.read_excel(endtimes_str, 1, usecols=['Campus Short Name'])
 print(endtimes.shape)
 
 # now, we'll read in the school geographic information. This is from the Texas Education Agency and has different names
-coord_str = direc + "prep//raw_data//" + "school_geography.csv"
+coord_str = raw_data + "school_geography.csv"
 
 coord = pd.read_csv(coord_str, usecols=['School_Nam'])
 print(coord.shape)
@@ -51,5 +61,5 @@ print("Head of final dataframe:")
 print(endtimes.head())
 
 # We'll then write this to a csv
-name_match_str = direc + "prep//raw_data//" + "name_match_raw.csv"
+name_match_str = int_data + "name_match_raw.csv"
 endtimes.to_csv(name_match_str)

@@ -1,7 +1,7 @@
 """
 1-2022 Amy Fan 
 
-Cleaning the demographic and geographic files that we'll be using in the future.
+Cleaning the demographic and geographic files that we'll be using in the future and merging them into one file.
 
 inputs (See the README for a more detailed description of the data):
 
@@ -34,7 +34,7 @@ outputs (in cleaned_data):
     
     - HMW_info.csv (in raw_data)
         
-        one line with relevant information about Hattie Mae White -- to be used in calculating distances
+        one line with relevant information about Hattie Mae White -- to be used later
 
 We will also be dropping the following schools for the following reasons: 
 
@@ -59,7 +59,9 @@ import pandas as pd
 import requests
 import dask.dataframe as dd
 
+# directories
 raw_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//raw_data//"
+int_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//"
 cleaned_data = "//Users//afan//Desktop//Misc//HMW_Transit//cleaned_data//"
 
 # API subscription keys for Google Maps
@@ -69,6 +71,45 @@ gm_api_key = "AIzaSyDkb0cS70Cmk5aQ-p4QZ_DccGHgGqc7eu4"
 
 
 def get_place_id(row, api_key):
+    """
+    function to get the Place ID from the Google Maps API 
+
+    Documentation for the API can be found here: https://developers.google.com/maps/documentation/places/web-service/search-find-place
+
+    input: 
+    _____
+
+        row: Pandas Series (or is it a list?)
+
+            In this case, we use a row of a DataFrame. The indices are as follows:
+
+            row[1]: String
+
+                School Name
+
+            row[2]: String
+
+                School Address
+
+            row[4]: float
+
+                Longitude of the school
+
+            row[5]: float
+
+                Latitude of the school  
+
+        api_key: String 
+
+            Provided by Google. Needed to access the database
+
+    output: 
+    ______
+
+        p_id: String
+
+            The Google Place ID 
+    """
 
     s_name = row[1]
 
@@ -230,9 +271,9 @@ stud_final = stud_final[~stud_final.School_Nam.isin(
 stud_final = stud_final[~stud_final.CAMPNAME.isin(
     ["YOUNG SCHOLARS ACADEMY FOR EXCELLE", "YOUNG LEARNERS"])]
 
-###################
-# GOOGLE MAPS API #
-###################
+#########################
+# GOOGLE MAPS API + HMW #
+#########################
 
 # We need to find the place_id in order to give Google Maps accurate information location
 # First, we'll do it for Hattie Mae White and then save this information locally
@@ -240,7 +281,7 @@ HMW_row = ['n/a', "Hattie Mae White", "4400 W 18th St, Houston, TX 77092", 'n/a'
            29.802759908899148, -95.45410037006431]
 HMW_row.append(get_place_id(HMW_row, gm_api_key))
 
-HMW_str = raw_data + "HMW.csv"
+HMW_str = int_data + "HMW.csv"
 pd.DataFrame(HMW_row).to_csv(HMW_str)
 
 # Now, we'll convert the existing df to a dask dataframe and do the API calls from there
