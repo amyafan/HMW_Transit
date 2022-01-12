@@ -213,7 +213,7 @@ print(et.head())
 print("\n\nStarting the merge!")
 
 # To match school names to the TEA names though, we will have to read in the key.
-key_str = raw_data + "name_match_final.csv"
+key_str = int_data + "name_match_final.csv"
 key = pd.read_csv(key_str)
 
 # We're going to do this one step at a time
@@ -294,6 +294,9 @@ stud_final = ddf.compute()
 ##############################
 # SAVE FINAL CLEANED DATASET #
 ##############################
+
+# convert the endtimes column into a time columnn
+stud_final['End Time'] = [dt.time() for dt in stud_final['End Time']]
 
 print(stud_final.head())
 

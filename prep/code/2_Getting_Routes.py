@@ -54,7 +54,7 @@ start = time.perf_counter()
 ###############################
 
 
-def get_write_routes(row):
+def get_write_routes(row, board_meeting_start_time):
 
     # school number
     school_num = row[0]
@@ -77,7 +77,7 @@ def get_write_routes(row):
     routes_1 = requests.get(routes_1_url)
 
     # save output as .json
-    api_1_str = json_loc + school_num + "_" + school_name + "_leave.txt"
+    api_1_str = json_loc + school_num + "_" + school_name + "_leav.json"
 
     with open(api_1_str, 'w') as outfile:
         json.dump(routes_1.json(), outfile, sort_keys=True, indent=4,
@@ -87,11 +87,11 @@ def get_write_routes(row):
     # API CALL 2: ARRIVE AT BOARD MEETING TIME #
     ############################################
 
-    routes_2_url = f"https://maps.googleapis.com/maps/api/directions/json?arrival_time={bm_start_time}&alternatives=true&destination=place_id:{hmw_place_id}&mode=transit&origin=place_id:{school_place_id}&key={gm_api_key}"
+    routes_2_url = f"https://maps.googleapis.com/maps/api/directions/json?arrival_time={board_meeting_start_time}&alternatives=true&destination=place_id:{hmw_place_id}&mode=transit&origin=place_id:{school_place_id}&key={gm_api_key}"
     routes_2 = requests.get(routes_2_url)
 
     # save output as .json
-    api_2_str = json_loc + school_num + "_" + school_name + "_arr.txt"
+    api_2_str = json_loc + school_num + "_" + school_name + "_arr.json"
 
     with open(api_2_str, 'w') as outfile:
         json.dump(routes_2.json(), outfile, sort_keys=True, indent=4,
@@ -139,7 +139,7 @@ results = []
 # loop through each school
 for nrow in range(0, len(df)):
 
-    a = delayed(get_write_routes)(df.iloc[nrow, :])
+    a = delayed(get_write_routes)(df.iloc[nrow, :], bm_start_time)
     results.append(a)
 
 # bring together all the concatenated results
@@ -153,4 +153,9 @@ print(final.T)
 
 end = time.perf_counter()
 
+###################
+# CLOSING ACTIONS #
+###################
+
+# Let's create a readme text in the folder that
 print(f"Everything happened in {end - start:0.4f} seconds!")
