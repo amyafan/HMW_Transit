@@ -1,15 +1,15 @@
 """
 Amy Fan 1-2022
 
-This file uses the Metro API to find all the routes and route information from each school in HISD to Hattie Mae White: 
+This file uses the Google Maps API to find all the routes and route information from each school in HISD to Hattie Mae White: 
 
-API documentation: https://api-portal.ridemetro.org/api-details#api=53f1db24ee3f340e949f15c7&operation=53f1db25ee3f34058c6da3cc
+API documentation: https://developers.google.com/maps/documentation/directions/get-directions
 
 inputs:
 
     - school_demo_geo.csv
 
-        cleaned from 1_Cleaning_Sch.py. Contains all the information about the schools 
+        cleaned from 1_Cleaning_Sch.py. Contains all the information about the schools and the Google Place ID information
 
 outputs: 
 
