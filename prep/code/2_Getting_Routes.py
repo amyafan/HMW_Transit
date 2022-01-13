@@ -1,7 +1,7 @@
 """
 Amy Fan 1-2022
 
-This file uses the Google Maps API to find all the routes and route information from each school in HISD to Hattie Mae White: 
+This file uses the Google Maps API to find all the routes and route information from each school in HISD to Hattie Mae White:
 
 API documentation: https://developers.google.com/maps/documentation/directions/get-directions
 
@@ -13,15 +13,22 @@ inputs:
 
         cleaned from 1_Cleaning_Sch.py. Contains all the information about the schools and the Google Place ID information
 
-outputs: 
+outputs:
 
     - prep/int_data/{School_Num}_{School_Nam}_{arr/leav}.json
 
-        two json files for each school: 
-            
+        two json files for each school:
+
             1) the routes leaving from when school starts
             2) the routes that arrive before the board meeting
-        
+
+NOTES ON TIME ZONES:
+
+I am currently running this in Eastern Time Zone, which is one hour ahead of Houston (Central Time)
+
+There are two times that are relevant here:
+    - School End time
+
 """
 
 # import all the necessary libraries
@@ -31,6 +38,7 @@ import requests
 import datetime
 import time
 import json
+import pytz
 from dask import delayed
 
 # working directory
@@ -40,6 +48,9 @@ json_loc = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//bus_route
 
 # API subscription keys for Google Maps
 gm_api_key = "AIzaSyDkb0cS70Cmk5aQ-p4QZ_DccGHgGqc7eu4"
+
+# Time Zone
+cst = pytz.timezone('US/Central')
 
 #########
 # TIMER #
@@ -80,8 +91,7 @@ def get_write_routes(row, board_meeting_start_time):
     api_1_str = json_loc + school_num + "_" + school_name + "_leav.json"
 
     with open(api_1_str, 'w') as outfile:
-        json.dump(routes_1.json(), outfile, sort_keys=True, indent=4,
-                  ensure_ascii=False)
+        json.dump(routes_1.json(), outfile, sort_keys=True)
 
     ############################################
     # API CALL 2: ARRIVE AT BOARD MEETING TIME #
@@ -94,8 +104,7 @@ def get_write_routes(row, board_meeting_start_time):
     api_2_str = json_loc + school_num + "_" + school_name + "_arr.json"
 
     with open(api_2_str, 'w') as outfile:
-        json.dump(routes_2.json(), outfile, sort_keys=True, indent=4,
-                  ensure_ascii=False)
+        json.dump(routes_2.json(), outfile, sort_keys=True)
 
     ##########
     # OUTPUT #
@@ -116,6 +125,7 @@ def get_write_routes(row, board_meeting_start_time):
 df_str = cleaned_data + "school_demo_geo.csv"
 df_cols = ['School_Num', 'School_Nam', 'End Time', 'Place_Id']
 df = pd.read_csv(df_str, usecols=df_cols, parse_dates=['End Time'])
+df['End Time'] = df['End Time'] + datetime.timedelta(hours=6)
 
 ################################
 # HATTIE MAE WHITE INFORMATION #
@@ -127,8 +137,8 @@ hmw = pd.read_csv(hmw_str, usecols=[1]).T
 hmw_place_id = hmw.iloc[0, 6]
 
 # board meeting time
-bm_start_time = int((datetime.datetime.combine(datetime.datetime.today(), datetime.time(
-    17, 00)) + datetime.timedelta(hours=6)).timestamp())
+bm_start_time = int((datetime.datetime.combine(
+    datetime.datetime.now(cst).date(), datetime.time(17, 00)).timestamp()))
 
 #################################
 # PULLING THE ROUTE INFORMATION #
