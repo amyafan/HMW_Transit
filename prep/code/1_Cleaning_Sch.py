@@ -28,11 +28,11 @@ inputs (See the README for a more detailed description of the data):
 
 outputs (in cleaned_data): 
 
-    - school_demo_geo.csv (in cleaned_data)
+    - cleaned_data/school_demo_geo.csv
 
         cleaned dataset of demographic, geographic, and relevant Google Maps data 
     
-    - HMW_info.csv (in raw_data)
+    - raw_data/HMW_info.csv
         
         one line with relevant information about Hattie Mae White -- to be used later
 
