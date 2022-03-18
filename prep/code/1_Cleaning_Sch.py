@@ -65,7 +65,7 @@ int_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//"
 cleaned_data = "//Users//afan//Desktop//Misc//HMW_Transit//cleaned_data//"
 
 # API subscription keys for Google Maps
-gm_api_key = "AIzaSyDkb0cS70Cmk5aQ-p4QZ_DccGHgGqc7eu4"
+gm_api_key = GM_API_KEY
 
 # FUNCTION FOR GOOGLE MAPS API
 
