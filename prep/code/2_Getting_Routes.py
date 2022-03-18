@@ -47,8 +47,7 @@ int_data = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//"
 json_loc = "//Users//afan//Desktop//Misc//HMW_Transit//prep//int_data//bus_routes//"
 
 # API subscription keys for Google Maps
-gm_api_key = "AIzaSyDkb0cS70Cmk5aQ-p4QZ_DccGHgGqc7eu4"
-
+gm_api_key = GM_API_KEY
 # Time Zone
 cst = pytz.timezone('US/Central')
 
